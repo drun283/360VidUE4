@@ -19,6 +19,7 @@ ATrackerBase::ATrackerBase()
 
 void ATrackerBase::initalizeCurves()
 {
+/*
 	try {
 		if (XDegRowHandle.IsValid("")) {
 			GLog->Log("Getting Rich Curve from X handle");
@@ -43,4 +44,5 @@ void ATrackerBase::initalizeCurves()
 	{
 		GLog->Log("ERROR initalizing curves");
 	}
+*/
 }
