@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VR360VidTemplate.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Intermediate\Build\Win64\VR360VidTemplateEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Intermediate\Build\Win64\UE4Editor\Development\VR360VidTemplate\MyClass.cpp.obj"
+"C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Intermediate\Build\Win64\UE4Editor\Development\VR360VidTemplate\TrackerBase.cpp.obj"
+"C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Intermediate\Build\Win64\UE4Editor\Development\VR360VidTemplate\VR360VidTemplate.cpp.obj"
+"C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Intermediate\Build\Win64\UE4Editor\Development\VR360VidTemplate\TrackerBase.gen.cpp.obj"
+"C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Intermediate\Build\Win64\UE4Editor\Development\VR360VidTemplate\VR360VidTemplate.init.gen.cpp.obj"
+"C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Intermediate\Build\Win64\UE4Editor\Development\VR360VidTemplate\Default.rc2.res"
+/OUT:"C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Intermediate\Build\Win64\UE4Editor\Development\VR360VidTemplate\UE4Editor-VR360VidTemplate.lib"
+/INCLUDE:IMPLEMENT_MODULE_VR360VidTemplate

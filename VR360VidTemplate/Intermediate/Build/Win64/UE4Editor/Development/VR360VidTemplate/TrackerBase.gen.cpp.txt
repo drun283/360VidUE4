@@ -1,0 +1,9 @@
+C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Intermediate\Build\Win64\UE4Editor\Development\VR360VidTemplate\Definitions.VR360VidTemplate.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Source\VR360VidTemplate/TrackerBase.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/CurveTable.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Curves/SimpleCurve.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SimpleCurve.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CurveTable.generated.h
+c:\users\druny\documents\360vidue4\vr360vidtemplate\intermediate\build\win64\ue4editor\inc\vr360vidtemplate\TrackerBase.generated.h

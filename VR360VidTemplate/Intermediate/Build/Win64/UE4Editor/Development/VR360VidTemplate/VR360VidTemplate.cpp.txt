@@ -1,0 +1,2 @@
+C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Intermediate\Build\Win64\UE4Editor\Development\VR360VidTemplate\Definitions.VR360VidTemplate.h
+c:\users\druny\documents\360vidue4\vr360vidtemplate\source\vr360vidtemplate\VR360VidTemplate.h

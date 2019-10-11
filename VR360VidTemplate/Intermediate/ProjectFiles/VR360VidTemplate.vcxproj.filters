@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\VR360VidTemplate.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F8EA44C6-508B-4CBF-898C-2F4A2B9BE6AD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VR360VidTemplate.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\VR360VidTemplateEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AFEFAD85-8802-4E9B-91B0-9CA131026D22}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{D4AA6095-7A90-40D8-8F9C-B6ED4DDEF49A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{60AFFA4F-63FE-4000-A14E-ED377DB26716}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{91341BF6-1CE0-49C5-987F-0B90E50101A3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{CBC0B488-A66C-4F60-9BD6-BFA8779E4CE6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{30991C01-05F2-4B33-9C4C-9D3E91B48656}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{2FCA44B9-2983-4DB2-B990-4818FC9F7AAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{CD7FB2D6-1142-4DC3-8D79-3A61F397EDE8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{4369FCD6-02BD-495B-A949-9B45F2E03F64}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\VR360VidTemplate">
+      <UniqueIdentifier>{D3051716-621E-4F96-80A0-CF848AC37044}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\VR360VidTemplate\TrackerBase.cpp">
+      <Filter>Source\VR360VidTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VR360VidTemplate\TrackerBase.h">
+      <Filter>Source\VR360VidTemplate</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\VR360VidTemplate\VR360VidTemplate.Build.cs">
+      <Filter>Source\VR360VidTemplate</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\VR360VidTemplate\VR360VidTemplate.cpp">
+      <Filter>Source\VR360VidTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VR360VidTemplate\VR360VidTemplate.h">
+      <Filter>Source\VR360VidTemplate</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

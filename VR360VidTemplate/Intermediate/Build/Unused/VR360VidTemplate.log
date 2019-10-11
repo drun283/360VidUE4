@@ -1,0 +1,12 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\druny\Documents\360VidUE4).
+  Parsing headers for VR360VidTemplateEditor
+    Running UnrealHeaderTool "C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\VR360VidTemplate.uproject" "C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Intermediate\Build\Win64\VR360VidTemplateEditor\Development\VR360VidTemplateEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for VR360VidTemplateEditor in 7.8084675 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
+    [1/4] TrackerBase.cpp
+C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Source\VR360VidTemplate\TrackerBase.cpp(25): error C2679: binary '=': no operator found which takes a right-hand operand of type 'FRealCurve' (or there is no acceptable conversion)
+    C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Curves/RichCurve.h(333): note: could be 'FRichCurve &FRichCurve::operator =(FRichCurve &&)'
+    C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Curves/RichCurve.h(333): note: or       'FRichCurve &FRichCurve::operator =(const FRichCurve &)'
+    C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Source\VR360VidTemplate\TrackerBase.cpp(25): note: while trying to match the argument list '(FRichCurve, FRealCurve)'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.23\Engine\Build\BatchFiles\Build.bat" VR360VidTemplateEditor Win64 Development -Project="C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\VR360VidTemplate.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

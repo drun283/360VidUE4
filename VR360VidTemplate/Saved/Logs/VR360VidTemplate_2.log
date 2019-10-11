@@ -1,0 +1,1033 @@
+﻿Log file open, 09/28/19 23:15:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: VR360VidTemplate
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.178096
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Engine.ini]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.09.29-05.15.08:030][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.09.29-05.15.08:031][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.09.29-05.15.08:032][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Engine.ini]
+[2019.09.29-05.15.08:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Engine.ini]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Engine.ini]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.29-05.15.08:033][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Engine.ini]
+[2019.09.29-05.15.08:033][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Engine.ini]
+[2019.09.29-05.15.08:043][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.29-05.15.08:043][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.29-05.15.08:043][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.29-05.15.08:043][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.29-05.15.08:044][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.29-05.15.08:045][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.29-05.15.08:046][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.29-05.15.08:046][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.29-05.15.08:046][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.29-05.15.08:046][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.29-05.15.08:046][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.29-05.15.08:046][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.29-05.15.08:046][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.29-05.15.08:046][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:046][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.29-05.15.08:046][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.29-05.15.08:046][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.29-05.15.08:046][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.29-05.15.08:060][  0]LogHAL: Display: Platform has ~ 16 GB [17017708544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.29-05.15.08:060][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.29-05.15.08:061][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.09.29-05.15.08:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.09.29-05.15.08:062][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Scalability.ini]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.09.29-05.15.08:063][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Config/Windows/Engine.ini]
+[2019.09.29-05.15.08:064][  0]LogInit: Computer: RUNYAN-LAPTOP
+[2019.09.29-05.15.08:064][  0]LogInit: User: Daniel
+[2019.09.29-05.15.08:064][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.29-05.15.08:064][  0]LogInit: High frequency timer resolution =1.945310 MHz
+[2019.09.29-05.15.08:064][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.09.29-05.15.08:064][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.29-05.15.08:064][  0]LogMemory: Process Physical Memory: 101.01 MB used, 101.01 MB peak
+[2019.09.29-05.15.08:064][  0]LogMemory: Process Virtual Memory: 99.04 MB used, 99.04 MB peak
+[2019.09.29-05.15.08:064][  0]LogMemory: Physical Memory: 9614.20 MB used,  6615.15 MB free, 16229.35 MB total
+[2019.09.29-05.15.08:064][  0]LogMemory: Virtual Memory: 4683.23 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.09.29-05.15.08:069][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.09.29-05.15.08:310][  0]LogInit: Using OS detected language (en-US).
+[2019.09.29-05.15.08:310][  0]LogInit: Using OS detected locale (en-US).
+[2019.09.29-05.15.08:311][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.09.29-05.15.08:840][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.29-05.15.08:968][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.29-05.15.08:968][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.29-05.15.12:953][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.29-05.15.12:953][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.29-05.15.13:482][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.09.29-05.15.13:483][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2019.09.29-05.15.13:486][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.29-05.15.13:487][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.29-05.15.13:487][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.29-05.15.13:500][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.29-05.15.13:500][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.29-05.15.13:501][  0]LogWindows: EnumDisplayDevices:
+[2019.09.29-05.15.13:501][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:0 D:1)
+[2019.09.29-05.15.13:502][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.09.29-05.15.13:502][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.09.29-05.15.13:502][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.09.29-05.15.13:502][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2019.09.29-05.15.13:503][  0]LogD3D11RHI:   Driver Version: 23.20.16.5044 (internal:23.20.16.5044, unified:23.20.16.5044)
+[2019.09.29-05.15.13:503][  0]LogD3D11RHI:      Driver Date: 4-25-2018
+[2019.09.29-05.15.13:503][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2019.09.29-05.15.13:977][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.29-05.15.14:004][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2019.09.29-05.15.14:777][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.09.29-05.15.14:804][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.09.29-05.15.14:833][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.09.29-05.15.14:854][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.09.29-05.15.14:891][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.09.29-05.15.14:912][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.09.29-05.15.14:933][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.09.29-05.15.14:953][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.09.29-05.15.14:965][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.09.29-05.15.15:057][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.09.29-05.15.15:062][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.09.29-05.15.15:119][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.09.29-05.15.15:119][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.09.29-05.15.15:150][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.09.29-05.15.15:150][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.09.29-05.15.15:165][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.09.29-05.15.15:178][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.09.29-05.15.15:195][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.09.29-05.15.15:229][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.09.29-05.15.15:283][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.09.29-05.15.15:283][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.09.29-05.15.15:283][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.29-05.15.15:366][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.09.29-05.15.15:540][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Intermediate/Shaders/WorkingDirectory/19720/).
+[2019.09.29-05.15.15:540][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/druny/AppData/Local/Temp/UnrealShaderWorkingDir/F16EB0A9487D65C12749E6AB4734451C/'.
+[2019.09.29-05.15.15:546][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.29-05.15.15:546][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.29-05.15.15:546][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.29-05.15.20:034][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.29-05.15.20:201][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/druny/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.09.29-05.15.20:202][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/druny/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.09.29-05.15.20:202][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.29-05.15.20:202][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.29-05.15.20:202][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.29-05.15.20:202][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.29-05.15.20:237][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.29-05.15.20:237][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.29-05.15.20:237][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.29-05.15.20:240][  0]LogDerivedDataCache: Using Local data cache path C:/Users/druny/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.29-05.15.20:240][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.29-05.15.20:240][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.29-05.15.20:280][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.29-05.15.20:285][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.29-05.15.20:312][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.29-05.15.20:723][  0]LogAssetRegistry: FAssetRegistry took 0.0046 seconds to start up
+[2019.09.29-05.15.21:369][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.29-05.15.21:791][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.29-05.15.21:792][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.09.29-05.15.21:792][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.29-05.15.21:792][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.09.29-05.15.21:792][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.09.29-05.15.21:839][  0]LogNetVersion: VR360VidTemplate 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2112616890)
+[2019.09.29-05.15.23:691][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.138031 seconds
+[2019.09.29-05.15.23:706][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.09.29-05.15.23:706][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.09.29-05.15.23:706][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.29-05.15.28:852][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.29-05.15.28:857][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.29-05.15.29:020][  0]SourceControl: Source control is disabled
+[2019.09.29-05.15.29:021][  0]SourceControl: Source control is disabled
+[2019.09.29-05.15.29:029][  0]SourceControl: Source control is disabled
+[2019.09.29-05.15.29:031][  0]SourceControl: Source control is disabled
+[2019.09.29-05.15.29:271][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.29-05.15.29:571][  0]LogOcInput: OculusInput pre-init called
+[2019.09.29-05.15.29:588][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.09.29-05.15.29:588][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.09.29-05.15.29:770][  0]LogEngine: Initializing Engine...
+[2019.09.29-05.15.29:771][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.29-05.15.29:773][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.09.29-05.15.30:472][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.29-05.15.30:512][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.29-05.15.30:816][  0]LogInit: XAudio2 using 'Acer B247Y (3- Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.29-05.15.30:843][  0]LogInit: FAudioDevice initialized.
+[2019.09.29-05.15.30:843][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.29-05.15.30:917][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/druny/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.09.29-05.15.30:930][  0]LogInit: Texture streaming: Enabled
+[2019.09.29-05.15.30:977][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.29-05.15.31:108][  0]LogInit: Transaction tracking system initialized
+[2019.09.29-05.15.31:197][  0]BlueprintLog: New page: Editor Load
+[2019.09.29-05.15.31:390][  0]LocalizationService: Localization service is disabled
+[2019.09.29-05.15.33:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/' took 0.01s
+[2019.09.29-05.15.33:551][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.29-05.15.33:552][  0]LogCook: Display: Mobile HDR setting 0
+[2019.09.29-05.15.34:306][  0]SourceControl: Source control is disabled
+[2019.09.29-05.15.34:430][  0]LogSlate: Took 0.017503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.29-05.15.36:389][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.09.29-05.15.36:390][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.29-05.15.36:407][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.29-05.15.36:409][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.29-05.15.36:422][  0]LightingResults: New page: Lighting Build
+[2019.09.29-05.15.36:430][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.09.29-05.15.36:431][  0]MapCheck: New page: Map Check
+[2019.09.29-05.15.36:431][  0]LightingResults: New page: Lighting Build
+[2019.09.29-05.15.36:481][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2019.09.29-05.15.36:712][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.09.29-05.15.36:732][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.29-05.15.36:778][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2019.09.29-05.15.36:779][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.29-05.15.36:779][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.294ms to complete.
+[2019.09.29-05.15.36:779][  0]LogFileHelpers: Loading map 'Template_Default' took 0.371
+[2019.09.29-05.15.36:912][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.29-05.15.36:925][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.29-05.15.36:938][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.29-05.15.36:951][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.29-05.15.36:970][  0]LogCollectionManager: Loaded 0 collections in 0.004192 seconds
+[2019.09.29-05.15.36:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Collections/' took 0.00s
+[2019.09.29-05.15.36:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/Developers/Daniel/Collections/' took 0.00s
+[2019.09.29-05.15.36:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/Collections/' took 0.00s
+[2019.09.29-05.15.36:980][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.09.29-05.15.36:993][  0]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2864 classes and 682 folders.
+[2019.09.29-05.15.37:007][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.09.29-05.15.37:462][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.09.29-05.15.37:476][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.15.37:572][  0]LogSlate: Took 0.008457 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.29-05.15.37:592][  0]LogSlate: Took 0.011817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.29-05.15.37:761][  0]LogRenderer: Reallocating scene render targets to support 1148x564 Format 9 NumSamples 1 (Frame:1).
+[2019.09.29-05.15.38:440][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.09.29-05.15.38:440][  0]LogLoad: (Engine Initialization) Total time: 33.83 seconds
+[2019.09.29-05.15.38:440][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.29-05.15.38:527][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.09.29-05.15.38:574][  0]LogSlate: Took 0.010542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.29-05.15.39:633][  8]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.29-05.15.40:513][ 21]LogAssetRegistry: Asset discovery search completed in 19.7911 seconds
+[2019.09.29-05.15.40:519][ 21]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2019.09.29-05.15.40:519][ 21]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000112 seconds (updated 0 objects)
+[2019.09.29-05.15.41:405][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.29-05.16.32:514][ 31]LogSlate: Window 'Open Level' being destroyed
+[2019.09.29-05.16.41:216][352]LogStaticMesh: Building static mesh BeamMesh...
+[2019.09.29-05.16.41:234][352]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/VirtualReality/Meshes/BeamMesh.BeamMesh
+[2019.09.29-05.16.41:464][352]LogAIModule: Creating AISystem for world VidExample
+[2019.09.29-05.16.41:484][352]LogAssetEditorManager: Opening Asset editor for World /Game/BPs/Maps/VidExample.VidExample
+[2019.09.29-05.16.41:541][352]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2019.09.29-05.16.41:542][352]Cmd: MAP LOAD FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Maps/VidExample.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.29-05.16.41:543][352]LightingResults: New page: Lighting Build
+[2019.09.29-05.16.41:543][352]LoadErrors: New page: Loading map: VidExample.umap
+[2019.09.29-05.16.41:544][352]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2019.09.29-05.16.41:544][352]MapCheck: New page: Map Check
+[2019.09.29-05.16.41:544][352]LightingResults: New page: Lighting Build
+[2019.09.29-05.16.41:597][352]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2019.09.29-05.16.41:734][352]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.29-05.16.41:787][352]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.09.29-05.16.41:851][352]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.29-05.16.41:851][352]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.319ms to complete.
+[2019.09.29-05.16.41:851][352]LogFileHelpers: Loading map 'VidExample' took 0.310
+[2019.09.29-05.16.44:263][428]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.29-05.16.44:323][428]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel' has LevelScriptBlueprint '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel.VidExample' with GeneratedClass '/Game/BPs/Maps/VidExample.VidExample_C' with ClassGeneratedBy '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel.VidExample'
+[2019.09.29-05.16.44:323][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.29-05.16.44:324][428]PIE: New page: PIE session: VidExample (Sep 28, 2019, 5:16:44 PM)
+[2019.09.29-05.16.44:326][428]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.09.29-05.16.44:329][428]LogPlayLevel: Creating play world package: /Game/BPs/Maps/UEDPIE_0_VidExample
+[2019.09.29-05.16.44:340][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011028s)
+[2019.09.29-05.16.44:344][428]LogAIModule: Creating AISystem for world VidExample
+[2019.09.29-05.16.44:345][428]LogPlayLevel: PIE: World Init took: (0.004349s)
+[2019.09.29-05.16.44:345][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BPs/Maps/VidExample.VidExample to /Game/BPs/Maps/UEDPIE_0_VidExample.VidExample (0.016222s)
+[2019.09.29-05.16.44:430][428]LogUObjectHash: Compacting FUObjectHashTables data took   5.49ms
+[2019.09.29-05.16.44:450][428]LogInit: XAudio2 using 'Acer B247Y (3- Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.29-05.16.44:482][428]LogInit: FAudioDevice initialized.
+[2019.09.29-05.16.44:504][428]LogLoad: Game class is 'GameModeBase'
+[2019.09.29-05.16.44:508][428]LogWorld: Bringing World /Game/BPs/Maps/UEDPIE_0_VidExample.VidExample up for play (max tick rate 60) at 2019.09.28-23.16.44
+[2019.09.29-05.16.44:509][428]LogWorld: Bringing up level for play took: 0.002482
+[2019.09.29-05.16.44:510][428]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2019.09.29-05.16.44:535][428]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2019.09.29-05.16.44:541][428]PIE: Play in editor start time for /Game/BPs/Maps/UEDPIE_0_VidExample 0.403
+[2019.09.29-05.16.44:541][428]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel' has LevelScriptBlueprint '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel.VidExample' with GeneratedClass '/Game/BPs/Maps/VidExample.VidExample_C' with ClassGeneratedBy '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel.VidExample'
+[2019.09.29-05.16.48:091][581]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel' has LevelScriptBlueprint '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel.VidExample' with GeneratedClass '/Game/BPs/Maps/VidExample.VidExample_C' with ClassGeneratedBy '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel.VidExample'
+[2019.09.29-05.16.48:164][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.29-05.16.48:164][581]LogWorld: BeginTearingDown for /Game/BPs/Maps/UEDPIE_0_VidExample
+[2019.09.29-05.16.48:164][581]LogWorld: UWorld::CleanupWorld for VidExample, bSessionEnded=true, bCleanupResources=true
+[2019.09.29-05.16.48:179][581]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.29-05.16.48:179][581]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel' has LevelScriptBlueprint '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel.VidExample' with GeneratedClass '/Game/BPs/Maps/VidExample.VidExample_C' with ClassGeneratedBy '/Game/BPs/Maps/VidExample.VidExample:PersistentLevel.VidExample'
+[2019.09.29-05.16.48:278][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.29-05.16.48:286][581]LogUObjectHash: Compacting FUObjectHashTables data took   5.88ms
+[2019.09.29-05.16.48:325][582]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.09.29-05.16.53:062][770]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BPs/Blueprints/Tracker.Tracker
+[2019.09.29-05.16.53:977][770]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 121 classes and 0 folders.
+[2019.09.29-05.16.55:627][770]LogSlate: Took 0.008054 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.29-05.16.55:827][771]LogSlate: Took 0.014250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.29-05.17.02:093][958]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/BPs/Blueprints/Tracker.Tracker from Actor to TrackerBase...
+[2019.09.29-05.17.02:145][958]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.17.02:532][958]LogUObjectHash: Compacting FUObjectHashTables data took   6.72ms
+[2019.09.29-05.17.03:579][978]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.17.04:015][978]LogUObjectHash: Compacting FUObjectHashTables data took   7.27ms
+[2019.09.29-05.17.05:050][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/Tracker" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset" SILENT=true
+[2019.09.29-05.17.05:230][  2]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Tracker37B73E2A4FE050B000A7508E986E8497.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset'
+[2019.09.29-05.17.30:997][662]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.17.31:519][662]LogUObjectHash: Compacting FUObjectHashTables data took   6.65ms
+[2019.09.29-05.17.33:562][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/Tracker" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset" SILENT=true
+[2019.09.29-05.17.33:744][711]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/TrackerC6BFFDC142F320D75828CEAF3532C37E.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset'
+[2019.09.29-05.18.48:745][357]LogSlate: Window 'Delete Variable' being destroyed
+[2019.09.29-05.19.02:163][676]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.19.02:701][676]LogUObjectHash: Compacting FUObjectHashTables data took   7.25ms
+[2019.09.29-05.19.04:071][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/Tracker" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset" SILENT=true
+[2019.09.29-05.19.04:217][713]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/TrackerC8B531174EC7BFED2F43AB88454A19FE.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset'
+[2019.09.29-05.25.35:188][973]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0006.dll
+[2019.09.29-05.25.36:576][978]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-05.25.36:651][978]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2019.09.29-05.25.36:677][978]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-05.25.36:688][978]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-05.25.37:108][978]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.25.37:113][978]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-05.25.37:158][978]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2019.09.29-05.25.37:179][978]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-05.25.37:183][978]Display: HotReload took  0.6s.
+[2019.09.29-05.26.45:548][181]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2019.09.29-05.26.45:806][181]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/VidExample_Auto1641E77114E4FB274387B5397EAD1A4DD.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Autosaves/Game/BPs/Maps/VidExample_Auto1.umap'
+[2019.09.29-05.26.45:814][181]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BPs/Maps/VidExample' took 0.340
+[2019.09.29-05.26.45:814][181]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.340
+[2019.09.29-05.27.32:819][322]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0007.dll
+[2019.09.29-05.27.34:187][327]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-05.27.34:256][327]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2019.09.29-05.27.34:279][327]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-05.27.34:290][327]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-05.27.34:727][327]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.27.34:734][327]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-05.27.34:782][327]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2019.09.29-05.27.34:802][327]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-05.27.34:806][327]Display: HotReload took  0.6s.
+[2019.09.29-05.30.51:980][914]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0008.dll
+[2019.09.29-05.30.53:695][920]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-05.30.53:803][920]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2019.09.29-05.30.53:824][920]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-05.30.53:835][920]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-05.30.53:845][920]LogClass: Warning: Type mismatch in realCurve of Tracker_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2019.09.29-05.30.54:306][920]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.30.54:311][920]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-05.30.54:365][920]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2019.09.29-05.30.54:385][920]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-05.30.54:389][920]Display: HotReload took  0.7s.
+[2019.09.29-05.33.08:364][369]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.33.08:619][369]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.09.29-05.33.28:183][613]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0009.dll
+[2019.09.29-05.33.29:915][619]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-05.33.29:996][619]LogUObjectHash: Compacting FUObjectHashTables data took   6.35ms
+[2019.09.29-05.33.30:021][619]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-05.33.30:034][619]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-05.33.30:563][619]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.33.30:569][619]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-05.33.30:622][619]LogUObjectHash: Compacting FUObjectHashTables data took   5.84ms
+[2019.09.29-05.33.30:648][619]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-05.33.30:654][619]Display: HotReload took  0.7s.
+[2019.09.29-05.33.40:842][858]LogSlate: Window 'Delete Variable' being destroyed
+[2019.09.29-05.34.23:536][334]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.34.24:226][334]LogUObjectHash: Compacting FUObjectHashTables data took   9.04ms
+[2019.09.29-05.36.48:226][199]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2019.09.29-05.36.48:421][199]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/VidExample_Auto2199B2AD04432E172D5D91C82DC03127C.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Autosaves/Game/BPs/Maps/VidExample_Auto2.umap'
+[2019.09.29-05.36.48:425][199]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BPs/Maps/VidExample' took 0.253
+[2019.09.29-05.36.48:425][199]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.253
+[2019.09.29-05.36.48:427][199]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BPs/Blueprints/Tracker] ([1] browsable assets)...
+[2019.09.29-05.36.48:439][199]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BPs/Blueprints/Tracker.Tracker]
+[2019.09.29-05.36.48:439][199]OBJ SavePackage: Finished generating thumbnails for package [/Game/BPs/Blueprints/Tracker]
+[2019.09.29-05.36.48:485][199]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Tracker_Auto2949CC54B48B5514B025503A63D6D7708.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Autosaves/Game/BPs/Blueprints/Tracker_Auto2.uasset'
+[2019.09.29-05.36.48:486][199]LogFileHelpers: Auto-saving content packages took 0.059
+[2019.09.29-05.44.23:040][554]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0010.dll
+[2019.09.29-05.44.24:415][559]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-05.44.24:504][559]LogUObjectHash: Compacting FUObjectHashTables data took   6.72ms
+[2019.09.29-05.44.24:549][559]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-05.44.24:549][559]LogClass: Could not find existing type E_Character for HotReload. Assuming new
+[2019.09.29-05.44.24:562][559]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-05.44.25:106][559]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.44.25:112][559]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-05.44.25:167][559]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2019.09.29-05.44.25:190][559]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-05.44.25:193][559]Display: HotReload took  0.8s.
+[2019.09.29-05.44.34:809][636]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.44.35:463][636]LogUObjectHash: Compacting FUObjectHashTables data took   9.59ms
+[2019.09.29-05.45.16:247][888]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.45.16:872][888]LogUObjectHash: Compacting FUObjectHashTables data took   8.34ms
+[2019.09.29-05.45.17:669][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/Tracker" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset" SILENT=true
+[2019.09.29-05.45.17:800][910]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Tracker343D482B43F942BA94979E979AB3099E.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset'
+[2019.09.29-05.46.30:396][380]LogSlate: Window 'Tracker' being destroyed
+[2019.09.29-05.46.39:485][539]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0011.dll
+[2019.09.29-05.46.41:336][550]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-05.46.41:435][550]LogUObjectHash: Compacting FUObjectHashTables data took   9.66ms
+[2019.09.29-05.46.41:477][550]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-05.46.41:477][550]LogClass: E_Character HotReload.
+[2019.09.29-05.46.41:501][550]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-05.46.42:204][550]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.46.42:215][550]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-05.46.42:280][550]LogUObjectHash: Compacting FUObjectHashTables data took   8.23ms
+[2019.09.29-05.46.42:306][550]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-05.46.42:311][550]Display: HotReload took  1.0s.
+[2019.09.29-05.47.18:709][306]LogUObjectHash: Compacting FUObjectHashTables data took   7.45ms
+[2019.09.29-05.47.19:098][306]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/VidExample_Auto3AE38C203410E7E09F0F6D7A0327DAF6C.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Autosaves/Game/BPs/Maps/VidExample_Auto3.umap'
+[2019.09.29-05.47.19:103][306]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BPs/Maps/VidExample' took 0.497
+[2019.09.29-05.47.19:103][306]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.497
+[2019.09.29-05.47.19:105][306]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BPs/Blueprints/Tracker] ([1] browsable assets)...
+[2019.09.29-05.47.19:122][306]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BPs/Blueprints/Tracker.Tracker]
+[2019.09.29-05.47.19:122][306]OBJ SavePackage: Finished generating thumbnails for package [/Game/BPs/Blueprints/Tracker]
+[2019.09.29-05.47.19:193][306]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Tracker_Auto38DA29C2749CAEBD312D95298B15AE21F.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Autosaves/Game/BPs/Blueprints/Tracker_Auto3.uasset'
+[2019.09.29-05.47.19:195][306]LogFileHelpers: Auto-saving content packages took 0.091
+[2019.09.29-05.47.20:902][312]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0012.dll
+[2019.09.29-05.47.22:596][318]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-05.47.22:691][318]LogUObjectHash: Compacting FUObjectHashTables data took   6.13ms
+[2019.09.29-05.47.22:714][318]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-05.47.22:714][318]LogClass: E_Character HotReload.
+[2019.09.29-05.47.22:725][318]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-05.47.23:214][318]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.47.23:220][318]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-05.47.23:270][318]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2019.09.29-05.47.23:292][318]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-05.47.23:295][318]Display: HotReload took  0.7s.
+[2019.09.29-05.49.25:965][138]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0013.dll
+[2019.09.29-05.49.27:321][143]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-05.49.27:448][143]LogUObjectHash: Compacting FUObjectHashTables data took   8.61ms
+[2019.09.29-05.49.27:471][143]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-05.49.27:473][143]LogClass: E_Character HotReload.
+[2019.09.29-05.49.27:484][143]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-05.49.28:021][143]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.49.28:027][143]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-05.49.28:094][143]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2019.09.29-05.49.28:114][143]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-05.49.28:117][143]Display: HotReload took  0.8s.
+[2019.09.29-05.50.04:631][829]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0014.dll
+[2019.09.29-05.50.05:993][834]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-05.50.06:119][834]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2019.09.29-05.50.06:140][834]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-05.50.06:141][834]LogClass: E_Character HotReload.
+[2019.09.29-05.50.06:152][834]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-05.50.06:683][834]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.50.06:691][834]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-05.50.06:755][834]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2019.09.29-05.50.06:776][834]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-05.50.06:781][834]Display: HotReload took  0.8s.
+[2019.09.29-05.50.12:473][960]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.50.12:799][960]LogUObjectHash: Compacting FUObjectHashTables data took   6.12ms
+[2019.09.29-05.50.27:446][827]LogSlate: Took 0.010101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.09.29-05.50.58:985][669]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.50.58:999][669]LogBlueprint: Error: [Compiler Tracker] Can't connect pins  Person  and  Who : Convert E_Person Enum to E_Character Enum
+[2019.09.29-05.50.59:000][669]LogBlueprint: Error: [Compiler Tracker] Can't connect pins  Who  and  Person : Convert E_Person Enum to E_Character Enum
+[2019.09.29-05.50.59:005][669]LogBlueprint: Error: [Compiler PersistentLevel.VidExample] Can't connect pins  Who  and  Who : Convert E_Character Enum to E_Person Enum
+[2019.09.29-05.50.59:006][669]LogBlueprint: Error: [Compiler PersistentLevel.VidExample] Can't connect pins  Who  and  Who : Convert E_Character Enum to E_Person Enum
+[2019.09.29-05.50.59:008][669]LogBlueprint: Error: [Compiler PersistentLevel.VidExample] TellTrackersOneGotSelected  Signature Error: Unable to find the selected function/event: 'TellTrackersOneGotSelected' - has it been deleted?
+[2019.09.29-05.50.59:320][669]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2019.09.29-05.51.10:181][310]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.51.10:470][310]LogUObjectHash: Compacting FUObjectHashTables data took   5.59ms
+[2019.09.29-05.51.11:002][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/Tracker" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset" SILENT=true
+[2019.09.29-05.51.11:150][335]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Tracker3EB33792472E26BD2ED9BC98BECABE93.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset'
+[2019.09.29-05.51.13:724][478]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.51.14:037][478]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2019.09.29-05.51.14:493][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/Tracker" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset" SILENT=true
+[2019.09.29-05.51.14:571][499]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/TrackerF8F71BB642DBBA1AC070389FB3743575.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset'
+[2019.09.29-05.51.17:104][633]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/BPs/Maps/VidExample.VidExample:PersistentLevel.VidExample
+[2019.09.29-05.51.25:314][ 85]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BPs/Blueprints/MainHud.MainHud
+[2019.09.29-05.51.31:305][388]BlueprintLog: New page: Compile MainHud
+[2019.09.29-05.51.31:609][388]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
+[2019.09.29-05.51.32:076][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/MainHud" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/MainHud.uasset" SILENT=true
+[2019.09.29-05.51.32:115][414]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/MainHud4BD3C44B4235721727CF66955866F25F.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/MainHud.uasset'
+[2019.09.29-05.51.33:164][476]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2019.09.29-05.51.33:170][476]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.09.29-05.51.34:754][568]BlueprintLog: New page: Compile VidExample
+[2019.09.29-05.51.35:070][568]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
+[2019.09.29-05.51.36:487][647]LogUObjectHash: Compacting FUObjectHashTables data took   6.01ms
+[2019.09.29-05.51.36:786][647]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/VidExampleDA16E6764DBF729330DC75B857E8D8DC.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Maps/VidExample.umap'
+[2019.09.29-05.51.36:826][647]LogFileHelpers: Saving map 'VidExample' took 0.403
+[2019.09.29-05.51.44:401][100]BlueprintLog: New page: Compile VidExample
+[2019.09.29-05.51.44:734][100]LogUObjectHash: Compacting FUObjectHashTables data took   5.76ms
+[2019.09.29-05.51.45:129][118]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2019.09.29-05.51.45:434][118]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/VidExample1EBA679648188D26AAC7B2B5124F1297.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Maps/VidExample.umap'
+[2019.09.29-05.51.45:473][118]LogFileHelpers: Saving map 'VidExample' took 0.405
+[2019.09.29-05.51.45:928][144]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.09.29-05.51.48:694][264]LogUObjectHash: Compacting FUObjectHashTables data took  13.60ms
+[2019.09.29-05.51.52:439][264]LogSlate: Window 'Delete Assets' being destroyed
+[2019.09.29-05.51.53:796][328]LogUObjectHash: Compacting FUObjectHashTables data took   7.64ms
+[2019.09.29-05.51.55:823][404]LogUObjectHash: Compacting FUObjectHashTables data took   7.52ms
+[2019.09.29-05.51.57:580][404]LogSlate: Window 'Delete Assets' being destroyed
+[2019.09.29-05.56.12:624][415]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/BPs/Blueprints/E_Person.E_Person
+[2019.09.29-05.56.16:554][630]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0016.dll
+[2019.09.29-05.56.18:500][701]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-05.56.18:600][701]LogUObjectHash: Compacting FUObjectHashTables data took   8.33ms
+[2019.09.29-05.56.18:636][701]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-05.56.18:636][701]LogClass: E_Character HotReload.
+[2019.09.29-05.56.18:654][701]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-05.56.19:233][701]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.56.19:239][701]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-05.56.19:293][701]LogUObjectHash: Compacting FUObjectHashTables data took   5.80ms
+[2019.09.29-05.56.19:316][701]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-05.56.19:318][701]Display: HotReload took  0.8s.
+[2019.09.29-05.56.26:820][989]LogMetaData: Removing '/Game/BPs/Blueprints/E_Character.E_Character' ref from Metadata '/Game/BPs/Blueprints/E_Person.PackageMetaData'
+[2019.09.29-05.56.26:868][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/E_Character" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/E_Character.uasset" SILENT=true
+[2019.09.29-05.56.26:893][989]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/E_Character44020A894C6352777BC0E995CF0B2EDA.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/E_Character.uasset'
+[2019.09.29-05.56.27:350][989]LogUObjectHash: Compacting FUObjectHashTables data took   9.40ms
+[2019.09.29-05.56.27:455][989]LogUObjectHash: Compacting FUObjectHashTables data took   5.57ms
+[2019.09.29-05.56.27:520][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.09.29-05.56.28:668][ 33]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/BPs/Blueprints/E_Character.E_Character
+[2019.09.29-05.57.00:434][681]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0017.dll
+[2019.09.29-05.57.01:791][686]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-05.57.01:853][686]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2019.09.29-05.57.01:877][686]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-05.57.01:887][686]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-05.57.01:893][686]LogBlueprint: Warning: [Compiler Tracker] Could not find a variable named "WhichCharacter" in 'Tracker_C'.
+Make sure 'Tracker_C' has been compiled for  Get WhichCharacter
+[2019.09.29-05.57.01:893][686]LogBlueprint: Warning: [Compiler Tracker] Could not find a variable named "WhichCharacter" in 'Tracker_C'.
+Make sure 'Tracker_C' has been compiled for  Get WhichCharacter
+[2019.09.29-05.57.01:895][686]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.57.01:896][686]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.57.02:352][686]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.29-05.57.02:358][686]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-05.57.02:405][686]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2019.09.29-05.57.02:426][686]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-05.57.02:428][686]Display: HotReload took  0.6s.
+[2019.09.29-05.57.34:638][215]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.57.34:643][215]LogBlueprint: Warning: [Compiler Tracker] Could not find a variable named "WhichCharacter" in 'Tracker_C'.
+Make sure 'Tracker_C' has been compiled for  Get WhichCharacter
+[2019.09.29-05.57.34:643][215]LogBlueprint: Warning: [Compiler Tracker] Could not find a variable named "WhichCharacter" in 'Tracker_C'.
+Make sure 'Tracker_C' has been compiled for  Get WhichCharacter
+[2019.09.29-05.57.34:645][215]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.57.34:645][215]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.57.34:646][215]LogClass: Warning: Type mismatch in NewVar_0 of Tracker_C - Previous (BoolProperty) Current(EnumProperty) for package:  FObjectReader
+[2019.09.29-05.57.35:009][215]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2019.09.29-05.57.40:520][529]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/BPs/Blueprints/E_Character.E_Character
+[2019.09.29-05.57.47:094][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/E_Character" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/E_Character.uasset" SILENT=true
+[2019.09.29-05.57.47:111][911]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/E_CharacterF764D62C4135E3F75F4F49823A70A01A.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/E_Character.uasset'
+[2019.09.29-05.57.55:278][396]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.57.55:286][396]LogBlueprint: Warning: [Compiler Tracker] Could not find a variable named "WhichCharacter" in 'Tracker_C'.
+Make sure 'Tracker_C' has been compiled for  Get WhichCharacter
+[2019.09.29-05.57.55:286][396]LogBlueprint: Warning: [Compiler Tracker] Could not find a variable named "WhichCharacter" in 'Tracker_C'.
+Make sure 'Tracker_C' has been compiled for  Get WhichCharacter
+[2019.09.29-05.57.55:288][396]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.57.55:289][396]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.57.55:290][396]LogUObjectHash: Warning: Ambiguous search, could be Enum /Script/VR360VidTemplate.E_Character or UserDefinedEnum /Game/BPs/Blueprints/E_Character.E_Character
+[2019.09.29-05.57.55:691][396]LogUObjectHash: Compacting FUObjectHashTables data took   6.64ms
+[2019.09.29-05.58.05:738][992]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.58.05:743][992]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.58.05:743][992]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.58.05:941][992]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2019.09.29-05.58.15:518][553]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.58.15:524][553]LogBlueprint: Error: [Compiler Tracker] Can't connect pins  Which Character  and  Who : Convert E_Character Enum to E_Character Enum
+[2019.09.29-05.58.15:524][553]LogBlueprint: Error: [Compiler Tracker] Can't connect pins  Who  and  Which Character : Convert E_Character Enum to E_Character Enum
+[2019.09.29-05.58.15:527][553]LogBlueprint: Error: [Compiler PersistentLevel.VidExample] Can't connect pins  Who  and  Who : Convert E_Character Enum to E_Character Enum
+[2019.09.29-05.58.15:528][553]LogBlueprint: Error: [Compiler PersistentLevel.VidExample] Can't connect pins  Who Got Selected  and  Who : Convert E_Character Enum to E_Character Enum
+[2019.09.29-05.58.15:528][553]LogBlueprint: Error: [Compiler PersistentLevel.VidExample] Can't connect pins  Who  and  Who Got Selected : Convert E_Character Enum to E_Character Enum
+[2019.09.29-05.58.15:529][553]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.58.15:529][553]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.58.15:531][553]LogBlueprint: Error: [Compiler PersistentLevel.VidExample] TellTrackersOneGotSelected  Signature Error: Unable to find the selected function/event: 'TellTrackersOneGotSelected' - has it been deleted?
+[2019.09.29-05.58.15:816][553]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2019.09.29-05.58.38:823][568]LogMetaData: Removing '/Game/BPs/Blueprints/E_WhichCharacter.E_WhichCharacter' ref from Metadata '/Game/BPs/Blueprints/E_Character.PackageMetaData'
+[2019.09.29-05.58.38:936][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/E_WhichCharacter" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/E_WhichCharacter.uasset" SILENT=true
+[2019.09.29-05.58.38:955][568]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/E_WhichCharacter21F277734F6C39352076D4A317C79E0A.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/E_WhichCharacter.uasset'
+[2019.09.29-05.58.39:488][568]LogUObjectHash: Compacting FUObjectHashTables data took   7.78ms
+[2019.09.29-05.58.39:560][568]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2019.09.29-05.58.39:620][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.09.29-05.58.56:613][543]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.58.56:621][543]LogBlueprint: Error: [Compiler Tracker] COMPILER ERROR: failed building connection with 'Convert E_WhichCharacter Enum to E_Character Enum' at  Equal (Enum)
+[2019.09.29-05.58.56:622][543]LogBlueprint: Error: [Compiler Tracker] Can't connect pins  Which Character  and  Who : Convert E_Character Enum to E_WhichCharacter Enum
+[2019.09.29-05.58.56:623][543]LogBlueprint: Error: [Compiler Tracker] Can't connect pins  Who  and  Which Character : Convert E_Character Enum to E_WhichCharacter Enum
+[2019.09.29-05.58.56:629][543]LogBlueprint: Error: [Compiler PersistentLevel.VidExample] Can't connect pins  Who  and  Who : Convert E_WhichCharacter Enum to E_Character Enum
+[2019.09.29-05.58.56:629][543]LogBlueprint: Error: [Compiler PersistentLevel.VidExample] Can't connect pins  Who  and  Who : Convert E_WhichCharacter Enum to E_Character Enum
+[2019.09.29-05.58.56:630][543]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.58.56:631][543]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.58.56:631][543]LogBlueprint: Error: [Compiler Tracker] The current value of the ' A ' pin is invalid: '' is not a valid enumerant of '<E_Character>'
+[2019.09.29-05.58.56:632][543]LogBlueprint: Error: [Compiler PersistentLevel.VidExample] TellTrackersOneGotSelected  Signature Error: Unable to find the selected function/event: 'TellTrackersOneGotSelected' - has it been deleted?
+[2019.09.29-05.58.57:020][543]LogUObjectHash: Compacting FUObjectHashTables data took   7.20ms
+[2019.09.29-05.59.28:159][377]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.59.28:165][377]LogBlueprint: Error: [Compiler Tracker] Can't connect pins  Which Character  and  Who : Convert E_Character Enum to E_WhichCharacter Enum
+[2019.09.29-05.59.28:166][377]LogBlueprint: Error: [Compiler Tracker] Can't connect pins  Who  and  Which Character : Convert E_Character Enum to E_WhichCharacter Enum
+[2019.09.29-05.59.28:167][377]LogBlueprint: Error: [Compiler Tracker] The property associated with  Which Character  could not be found in '/Game/BPs/Blueprints/Tracker.Tracker_C'
+[2019.09.29-05.59.28:448][377]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2019.09.29-05.59.46:462][442]BlueprintLog: New page: Compile Tracker
+[2019.09.29-05.59.46:818][442]LogUObjectHash: Compacting FUObjectHashTables data took   6.38ms
+[2019.09.29-05.59.48:037][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/Tracker" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset" SILENT=true
+[2019.09.29-05.59.48:171][508]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/Tracker89384DB44F895A76326B138ABCBCC8BB.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset'
+[2019.09.29-05.59.53:046][743]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/BPs/Maps/VidExample.VidExample:PersistentLevel.VidExample
+[2019.09.29-05.59.58:095][  8]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BPs/Blueprints/MainHud.MainHud
+[2019.09.29-06.00.03:290][277]BlueprintLog: New page: Compile MainHud
+[2019.09.29-06.00.03:657][277]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2019.09.29-06.00.04:214][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/MainHud" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/MainHud.uasset" SILENT=true
+[2019.09.29-06.00.04:263][308]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/MainHud60CC1BDA42BD2984E24164AF920F4726.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/MainHud.uasset'
+[2019.09.29-06.00.05:174][361]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2019.09.29-06.00.05:181][361]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2019.09.29-06.00.14:517][916]BlueprintLog: New page: Compile VidExample
+[2019.09.29-06.00.14:881][916]LogUObjectHash: Compacting FUObjectHashTables data took   6.83ms
+[2019.09.29-06.00.17:893][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   7.82ms
+[2019.09.29-06.00.18:343][ 89]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/VidExample07B18C1449BEF5A4BFB0A984F3732BC0.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Maps/VidExample.umap'
+[2019.09.29-06.00.18:402][ 89]LogFileHelpers: Saving map 'VidExample' took 0.591
+[2019.09.29-06.00.18:810][111]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2019.09.29-06.00.21:571][256]BlueprintLog: New page: Compile Tracker
+[2019.09.29-06.00.22:197][256]LogUObjectHash: Compacting FUObjectHashTables data took   8.21ms
+[2019.09.29-06.00.23:617][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/Tracker" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset" SILENT=true
+[2019.09.29-06.00.23:717][331]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/TrackerF0DF9EFB46973BE0ABEB2B8378A9334B.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset'
+[2019.09.29-06.01.55:935][371]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0019.dll
+[2019.09.29-06.01.57:626][377]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-06.01.57:692][377]LogUObjectHash: Compacting FUObjectHashTables data took   6.94ms
+[2019.09.29-06.01.57:715][377]LogClass: Could not find existing class TrackerBase in package /Script/VR360VidTemplate for HotReload, assuming new class
+[2019.09.29-06.01.57:726][377]LogHotReload: Re-instancing TrackerBase after hot-reload.
+[2019.09.29-06.01.58:236][377]LogContentBrowser: Native class hierarchy updated for 'VR360VidTemplate' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.29-06.01.58:242][377]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.29-06.01.58:295][377]LogUObjectHash: Compacting FUObjectHashTables data took   5.86ms
+[2019.09.29-06.01.58:317][377]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2865 classes and 684 folders.
+[2019.09.29-06.01.58:320][377]Display: HotReload took  0.7s.
+[2019.09.29-06.02.00:851][459]BlueprintLog: New page: Compile Tracker
+[2019.09.29-06.02.01:327][459]LogUObjectHash: Compacting FUObjectHashTables data took   8.02ms
+[2019.09.29-06.02.12:940][148]BlueprintLog: New page: Compile Tracker
+[2019.09.29-06.02.13:314][148]LogUObjectHash: Compacting FUObjectHashTables data took   6.21ms
+[2019.09.29-06.02.13:592][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Blueprints/Tracker" FILE="../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset" SILENT=true
+[2019.09.29-06.02.13:652][158]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/TrackerA244292B4CEDA9F986B80281F35A0B5F.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Blueprints/Tracker.uasset'
+[2019.09.29-06.02.15:575][266]LogEditorViewport: Clicking on Actor (LMB): Tracker_C (Tracker)
+[2019.09.29-06.02.16:677][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.29-06.02.31:620][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.29-06.02.45:021][690]LogUObjectHash: Compacting FUObjectHashTables data took   9.18ms
+[2019.09.29-06.02.45:454][690]LogSavePackage: Moving '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Saved/VidExample063400DB48D383C343BC5BB3F2960C5B.tmp' to '../../../../../../Users/druny/Documents/360VidUE4/VR360VidTemplate/Content/BPs/Maps/VidExample.umap'
+[2019.09.29-06.16.44:697][897]LogHotReload: New module detected: UE4Editor-VR360VidTemplate-0020.dll
+[2019.09.29-06.16.46:057][902]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.29-06.16.46:145][902]LogUObjectHash: Compacting FUObjectHashTables data took   9.38ms
+[2019.09.29-06.16.48:184][902]LogWindows: Error: === Critical error: ===
+[2019.09.29-06.16.48:184][902]LogWindows: Error: 
+[2019.09.29-06.16.48:184][902]LogWindows: Error: Fatal error!
+[2019.09.29-06.16.48:184][902]LogWindows: Error: 
+[2019.09.29-06.16.48:184][902]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000068
+[2019.09.29-06.16.48:184][902]LogWindows: Error: 
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff9e5feeaa UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff86411dbc UE4Editor-VR360VidTemplate-0020.dll!ATrackerBase::initalizeCurves() [c:\users\druny\documents\360vidue4\vr360vidtemplate\source\vr360vidtemplate\trackerbase.cpp:22]
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff86411af2 UE4Editor-VR360VidTemplate-0020.dll!ATrackerBase::ATrackerBase() [c:\users\druny\documents\360vidue4\vr360vidtemplate\source\vr360vidtemplate\trackerbase.cpp:15]
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff8d174061 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff8d16541a UE4Editor-HotReload.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff8d16c48d UE4Editor-HotReload.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff8d1767d9 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff8d176b64 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff8d16f3d6 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fffa977ac6b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fffa9a81aa7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fffa9a62221 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fffa9994e95 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fffa8b983f7 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fffa8bb0ceb UE4Editor-Core.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fffa8bafe83 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff8d16d5c3 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff8d16d28e UE4Editor-HotReload.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fff8d17c7e1 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007fffa894382d UE4Editor-Core.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007ff60739a93e UE4Editor.exe!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007ff6073aa91c UE4Editor.exe!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007ff6073aa9fa UE4Editor.exe!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007ff6073bb92c UE4Editor.exe!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007ff6073be60e UE4Editor.exe!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007ffff4584034 KERNEL32.DLL!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: [Callstack] 0x00007ffff7103691 ntdll.dll!UnknownFunction []
+[2019.09.29-06.16.48:184][902]LogWindows: Error: 
+[2019.09.29-06.16.48:209][902]LogExit: Executing StaticShutdownAfterError
+[2019.09.29-06.16.48:216][902]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.09.29-06.16.48:219][902]Log file closed, 09/29/19 00:16:48

@@ -1,0 +1,3 @@
+C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Source\VR360VidTemplate\VR360VidTemplate.Build.cs
+C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Source\VR360VidTemplate.Target.cs
+C:\Users\druny\Documents\360VidUE4\VR360VidTemplate\Source\VR360VidTemplateEditor.Target.cs
