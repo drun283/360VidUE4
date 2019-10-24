@@ -91,31 +91,31 @@ def initRotationKeys(lines, outRotationKeys):
 
 def writeToJson(jsonFileName, scaleXKeys, scaleYKeys, scaleZKeys, positionXKeys, positionYKeys, positionZKeys, rotationKeys):
 
-  name = jsonFileNam[:-5] + "scaleX" + ".json"
+  name = jsonFileName[:-5] + "scaleX" + ".json"
   with open(name, 'w') as file:
     json.dump(scaleXKeys, file, indent = 2)
 
-  name = jsonFileNam[:-5] + "scaleY" + ".json"
+  name = jsonFileName[:-5] + "scaleY" + ".json"
   with open(name, 'w') as file:
     json.dump(scaleYKeys, file, indent = 2)
 
-  name = jsonFileNam[:-5] + "scaleZ" + ".json"
+  name = jsonFileName[:-5] + "scaleZ" + ".json"
   with open(name, 'w') as file:
     json.dump(scaleZKeys, file, indent = 2)
 
-  name = jsonFileNam[:-5] + "positionX" + ".json"
+  name = jsonFileName[:-5] + "positionX" + ".json"
   with open(name, 'w') as file:
     json.dump(positionXKeys, file, indent = 2)
 
-  name = jsonFileNam[:-5] + "positionY" + ".json"
+  name = jsonFileName[:-5] + "positionY" + ".json"
   with open(name, 'w') as file:
     json.dump(positionYKeys, file, indent = 2)
 
-  name = jsonFileNam[:-5] + "positionZ" + ".json"
+  name = jsonFileName[:-5] + "positionZ" + ".json"
   with open(name, 'w') as file:
     json.dump(positionZKeys, file, indent = 2) 
 
-  name = jsonFileNam[:-5] + "rotation" + ".json"
+  name = jsonFileName[:-5] + "rotation" + ".json"
   with open(name, 'w') as file:
     json.dump(rotationKeys, file, indent = 2)
 
