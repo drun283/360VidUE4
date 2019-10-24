@@ -45,9 +45,9 @@ def main(argv):
     scaleYKeys = {"Name": "Scale Y"}
     scaleZKeys = {"Name": "Scale Z"}
     positionXKeys = {"Name": "Position X"}
-    positionYKeys = {"Name": "Position X"}
-    positionZKeys = {"Name": "Position X"}
-    rotationKeys = {"Name": "Rotation",}
+    positionYKeys = {"Name": "Position Y"}
+    positionZKeys = {"Name": "Position Z"}
+    rotationKeys = {"Name": "Rotation"}
 
     initScaleKeys(lines[partitions[0][0]:partitions[0][1]], scaleXKeys, scaleYKeys, scaleZKeys)
     #initAnchorPointKeys(lines[partitions[1][0]:partitions[1][1]], keys)
