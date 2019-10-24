@@ -41,27 +41,32 @@ def main(argv):
 
 
     # split keys into groups using above partitions
-    keys = {
-      'scale' : {},
-      'position': {},
-      'rotation': {},
-    }
-    initScaleKeys(lines[partitions[0][0]:partitions[0][1]], keys)
+    scaleXKeys = {}
+    scaleYKeys = {}
+    scaleZKeys = {}
+    positionXKeys = {}
+    positionYKeys = {}
+    positionZKeys = {}
+    rotationKeys = {}
+
+    initScaleKeys(lines[partitions[0][0]:partitions[0][1]], scaleXKeys, scaleYKeys, scaleZKeys)
     #initAnchorPointKeys(lines[partitions[1][0]:partitions[1][1]], keys)
-    initPositionKeys(lines[partitions[2][0]:partitions[2][1]], keys)
-    initRotationKeys(lines[partitions[3][0]:partitions[3][1]], keys)
+    initPositionKeys(lines[partitions[2][0]:partitions[2][1]], positionXKeys, positionYKeys, positionZKeys)
+    initRotationKeys(lines[partitions[3][0]:partitions[3][1]], rotationKeys)
 
     jsonName = fileName[:-4] + '.json'
     print("writing {} to {}".format(fileName, jsonName))
-    writeToJson(jsonName, keys)
+    writeToJson(jsonName, scaleXKeys, scaleYKeys, scaleZKeys, positionXKeys, positionYKeys, positionZKeys, rotationKeys)
     print("finished")
     
       
-def initScaleKeys(lines, outKeys):
+def initScaleKeys(lines, outXKeys, outYKeys, outZKeys):
   for line in lines:
     if len(line) > 0:
       entries = line.split()
-      outKeys['scale'][entries[0]] = {'x': entries[1], 'y': entries[2], 'z': entries[3]}
+      outXKeys[entries[0]] = entries[1]
+      outYKeys[entries[0]] = entries[2]
+      outZKeys[entries[0]] = entries[3]
 
 def initAnchorPointKeys(lines, outKeys):
   #todo
@@ -69,22 +74,50 @@ def initAnchorPointKeys(lines, outKeys):
     if len(line) > 0:
       entries = line.split() 
   
-def initPositionKeys(lines, outKeys):
+def initPositionKeys(lines, outXKeys, outYKeys, outZKeys):
   for line in lines:
     if len(line) > 0:
       entries = line.split()
-      outKeys['position'][entries[0]] = {'x': entries[1], 'y': entries[2], 'z': entries[3]}
+      outXKeys[entries[0]] = entries[1]
+      outYKeys[entries[0]] = entries[2]
+      outZKeys[entries[0]] = entries[3]
 
-def initRotationKeys(lines, outKeys):
+def initRotationKeys(lines, outRotationKeys):
   for line in lines:
     if len(line) > 0:
       entries = line.split()
-      outKeys['rotation'][entries[0]] = {'deg': entries[1]}
+      outRotationKeys[entries[0]] = entries[1]
   
 
-def writeToJson(jsonFileName,keys):
-  with open(jsonFileName, 'w') as jsonFile:
-    json.dump(keys, jsonFile, indent = 2)
+def writeToJson(jsonFileName, scaleXKeys, scaleYKeys, scaleZKeys, positionXKeys, positionYKeys, positionZKeys, rotationKeys):
+
+  name = jsonFileNam[:-5] + "scaleX" + ".json"
+  with open(name, 'w') as file:
+    json.dump(scaleXKeys, file, indent = 2)
+
+  name = jsonFileNam[:-5] + "scaleY" + ".json"
+  with open(name, 'w') as file:
+    json.dump(scaleYKeys, file, indent = 2)
+
+  name = jsonFileNam[:-5] + "scaleZ" + ".json"
+  with open(name, 'w') as file:
+    json.dump(scaleZKeys, file, indent = 2)
+
+  name = jsonFileNam[:-5] + "positionX" + ".json"
+  with open(name, 'w') as file:
+    json.dump(positionXKeys, file, indent = 2)
+
+  name = jsonFileNam[:-5] + "positionY" + ".json"
+  with open(name, 'w') as file:
+    json.dump(positionYKeys, file, indent = 2)
+
+  name = jsonFileNam[:-5] + "positionZ" + ".json"
+  with open(name, 'w') as file:
+    json.dump(positionZKeys, file, indent = 2) 
+
+  name = jsonFileNam[:-5] + "rotation" + ".json"
+  with open(name, 'w') as file:
+    json.dump(rotationKeys, file, indent = 2)
 
 
 if __name__ == "__main__":
