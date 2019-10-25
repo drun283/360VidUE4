@@ -41,8 +41,11 @@ def main(argv):
 
     # split keys into groups using above partitions
     scaleXKeys = {"Name": "Scale X"}
+    scaleXKeys[0.0] = 0.0
     scaleYKeys = {"Name": "Scale Y"}
+    scaleYKeys[0.0] = 0.0
     scaleZKeys = {"Name": "Scale Z"}
+    scaleZKeys[0.0] = 0.0
     positionXKeys = {"Name": "Position X"}
     positionYKeys = {"Name": "Position Y"}
     positionZKeys = {"Name": "Position Z"}
@@ -77,8 +80,8 @@ def initPositionKeys(lines, outXKeys, outYKeys, outZKeys):
   for line in lines:
     if len(line) > 0:
       entries = line.split()
-      outXKeys[float(entries[0]) / 29.97] = (float(entries[1]) / 1920.0 * 360.0) - 90.0
-      outYKeys[float(entries[0]) / 29.97] = (float(entries[2]) / 960.0 * 180) - 90
+      outXKeys[float(entries[0]) / 29.97] = ((float(entries[1]) / 1920.0) * 360.0) # divide by canvas width and multiply by 360 degrees
+      outYKeys[float(entries[0]) / 29.97] = ((float(entries[2]) / 960.0) * 180.0) # divide by canvas height and multiply by 180 degrees
       outZKeys[float(entries[0]) / 29.97] = float(entries[3])
 
 def initRotationKeys(lines, outRotationKeys):
