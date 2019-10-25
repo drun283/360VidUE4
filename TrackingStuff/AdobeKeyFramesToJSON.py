@@ -80,8 +80,8 @@ def initPositionKeys(lines, outXKeys, outYKeys, outZKeys):
   for line in lines:
     if len(line) > 0:
       entries = line.split()
-      outXKeys[float(entries[0]) / 29.97] = ((float(entries[1]) / 1920.0) * 360.0) # divide by canvas width and multiply by 360 degrees
-      outYKeys[float(entries[0]) / 29.97] = ((float(entries[2]) / 960.0) * 180.0) # divide by canvas height and multiply by 180 degrees
+      outXKeys[float(entries[0]) / 29.97] = (((float(entries[1]) / 1920.0) * 360.0) - 180) # divide by canvas width and multiply by 360 degrees and convert to -180 to 180
+      outYKeys[float(entries[0]) / 29.97] = (((float(entries[2]) / 960.0) * 180.0) - 90) # divide by canvas height and multiply by 180 degrees and convert to -90 to 90
       outZKeys[float(entries[0]) / 29.97] = float(entries[3])
 
 def initRotationKeys(lines, outRotationKeys):
