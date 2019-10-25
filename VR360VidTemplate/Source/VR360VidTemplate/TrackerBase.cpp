@@ -17,8 +17,6 @@ ATrackerBase::ATrackerBase()
 	RotatingStuff->SetWorldTransform(this->GetTransform());
 	NonRotatingStuff->SetWorldTransform(this->GetTransform());
 
-
-
 	if (RootComponent)
 	{
 		Center->SetupAttachment(RootComponent);
@@ -31,13 +29,12 @@ ATrackerBase::ATrackerBase()
 	RotatingStuff->SetupAttachment(PointOnSphere);
 	NonRotatingStuff->SetupAttachment(PointOnSphere);
 
+	//Center->SetRelativeRotation(FRotator(0.0, -90, 0.0));
+
 	PointOnSphere->SetRelativeLocation(DefaultLocation);
-	PointOnSphere->SetRelativeRotation(DefaultRotation);
-
-
+	PointOnSphere->SetRelativeRotation(FRotator(0.0, 90, 0.0));
 
 	InitalizeMovement();
-
 }
 
 
@@ -48,18 +45,14 @@ void ATrackerBase::Tick(float DeltaTime)
 	if (bIsMoving) {
 		CurrentTime += DeltaTime;
 
-		//get scale and convert from full being 100.0 to full being 1.0
-		float scaleX = ScaleXCurve.Eval(CurrentTime) / 100.0;
-		float scaleY = ScaleYCurve.Eval(CurrentTime) / 100.0;
-		float scaleZ = ScaleZCurve.Eval(CurrentTime) / 100.0;
-		//get position and convert location to deg
-		float posX = PositionXCurve.Eval(CurrentTime);
-		float posY = PositionYCurve.Eval(CurrentTime);
-		//get rotation and convert
+		float scaleX = ScaleXCurve.Eval(CurrentTime);
+		float scaleY = ScaleYCurve.Eval(CurrentTime);
+		float yaw = PositionXCurve.Eval(CurrentTime) + 90.0;
+		float pitch = PositionYCurve.Eval(CurrentTime);
 		float rot = RotationCurve.Eval(CurrentTime);
 
-		Center->SetWorldRotation(FRotator(posY, posX, 0));
-		//PointOnSphere->SetRelativeScale3D(FVector(scaleX, scaleY, scaleZ));
+		Center->SetWorldRotation(FRotator(pitch, yaw, 0));
+		//PointOnSphere->SetRelativeScale3D(FVector(scaleX, 1.0, scaleY));
 		//RotatingStuff->SetRelativeRotation(FRotator(rot, 0.0, 0.0));
 	}
 
@@ -86,23 +79,9 @@ void ATrackerBase::InitalizeMovement()
 
 	ScaleXCurve = *CurveTable->FindRichCurve("ScaleX", "trying to get scale x");
 	ScaleYCurve = *CurveTable->FindRichCurve("ScaleY", "trying to get scale y");
-	ScaleZCurve = *CurveTable->FindRichCurve("ScaleZ", "trying to get scale z");
 	PositionXCurve = *CurveTable->FindRichCurve("PositionX", "trying to get position x");
 	PositionYCurve = *CurveTable->FindRichCurve("PositionY", "trying to get position y");
 	RotationCurve = *CurveTable->FindRichCurve("Rotation", "trying to get rotation");
-
-
-	/*
-	TArray<FRichCurveEditInfo> curves = CurveTable->GetCurves();
-
-	ScaleXCurve = *curves[0].CurveToEdit;
-	ScaleYCurve = *curves[1].CurveToEdit;
-	ScaleZCurve = *curves[2].CurveToEdit;
-	PositionXCurve = *curves[3].CurveToEdit;
-	PositionYCurve = *curves[4].CurveToEdit;
-	RotationCurve = *curves[5].CurveToEdit;
-	*/
-
 }
 
 #if WITH_EDITOR
@@ -114,16 +93,8 @@ void ATrackerBase::PostEditChangeProperty(FPropertyChangedEvent& PropertyChanged
 	{
 		GLog->Log("Resetting point on sphere distance after value change");
 		PointOnSphere->SetRelativeLocation(DefaultLocation);
-		PointOnSphere->SetRelativeRotation(DefaultRotation);
-
 	}
-	else if (PropertyName == "Roll" || PropertyName == "Pitch" || PropertyName == "Yaw" || PropertyName == "DefaultRotation")
-	{
-		GLog->Log("Resetting point on sphere location after value change");
-		PointOnSphere->SetRelativeLocation(DefaultLocation);
-		PointOnSphere->SetRelativeRotation(DefaultRotation);
 
-	}
 	else if (PropertyName == GET_MEMBER_NAME_CHECKED(ATrackerBase, CurveTable))
 	{
 		GLog->Log("Resetting curves after table change");

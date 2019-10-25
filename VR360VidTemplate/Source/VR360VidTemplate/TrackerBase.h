@@ -43,9 +43,6 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
 	FVector DefaultLocation;
-
-	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
-	FRotator DefaultRotation;
 	   	
 	
 private:
@@ -53,8 +50,6 @@ private:
 	FRichCurve ScaleXCurve;
 	UPROPERTY()
 	FRichCurve ScaleYCurve;
-	UPROPERTY()
-	FRichCurve ScaleZCurve;
 	UPROPERTY()
 	FRichCurve PositionXCurve;
 	UPROPERTY()
