@@ -4,16 +4,15 @@ import json
 
 def main(argv):
 
-
   if len(argv) < 1:
     print('please provide files to convert to json')
     sys.exit(1)
 
-  for fileName in argv:  
+  for fileName in argv:
 
     if not os.path.isfile(fileName):
       print("File path {} does not exist.".format(fileName))
-      continue  
+      continue
 
 
     # get lines from file
@@ -30,7 +29,7 @@ def main(argv):
 
     # get beginning of each section
     startIndexes = []
-    for i, line in enumerate(lines):    
+    for i, line in enumerate(lines):
       if line.startswith("Transform"):
         startIndexes.append(i)
     # use beginnings to make bounds for each section's data
@@ -58,36 +57,36 @@ def main(argv):
     print("writing {} to {}".format(fileName, jsonName))
     writeToJson(jsonName, scaleXKeys, scaleYKeys, scaleZKeys, positionXKeys, positionYKeys, positionZKeys, rotationKeys)
     print("finished")
-    
-      
+
+
 def initScaleKeys(lines, outXKeys, outYKeys, outZKeys):
   for line in lines:
     if len(line) > 0:
       entries = line.split()
-      outXKeys[entries[0]] = float(entries[1])
-      outYKeys[entries[0]] = float(entries[2])
-      outZKeys[entries[0]] = float(entries[3])
+      outXKeys[float(entries[0]) / 30.0] = float(entries[1])
+      outYKeys[float(entries[0]) / 30.0] = float(entries[2])
+      outZKeys[float(entries[0]) / 30.0] = float(entries[3])
 
 def initAnchorPointKeys(lines, outKeys):
   #todo
   for line in lines:
     if len(line) > 0:
-      entries = line.split() 
-  
+      entries = line.split()
+
 def initPositionKeys(lines, outXKeys, outYKeys, outZKeys):
   for line in lines:
     if len(line) > 0:
       entries = line.split()
-      outXKeys[entries[0]] = float(entries[1])
-      outYKeys[entries[0]] = float(entries[2])
-      outZKeys[entries[0]] = float(entries[3])
+      outXKeys[float(entries[0]) / 30.0] = float(entries[1])
+      outYKeys[float(entries[0]) / 30.0] = float(entries[2])
+      outZKeys[float(entries[0]) / 30.0] = float(entries[3])
 
 def initRotationKeys(lines, outRotationKeys):
   for line in lines:
     if len(line) > 0:
       entries = line.split()
-      outRotationKeys[entries[0]] = float(entries[1])
-  
+      outRotationKeys[float(entries[0]) / 30.0] = float(entries[1])
+
 
 def writeToJson(jsonFileName, scaleXKeys, scaleYKeys, scaleZKeys, positionXKeys, positionYKeys, positionZKeys, rotationKeys):
   data = []
@@ -96,7 +95,7 @@ def writeToJson(jsonFileName, scaleXKeys, scaleYKeys, scaleZKeys, positionXKeys,
   data.append(scaleZKeys)
   data.append(positionXKeys)
   data.append(positionYKeys)
-  data.append(positionZKeys)
+  #data.append(positionZKeys)
   data.append(rotationKeys)
 
   with open(jsonFileName, 'w') as file:

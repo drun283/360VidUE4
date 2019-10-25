@@ -5,7 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Engine/CurveTable.h"
-#include "Curves/CurveFloat.h"
+#include "Components/SceneComponent.h"
+#include "MediaAssets/Public/MediaPlayer.h"
 #include "TrackerBase.generated.h"
 
 
@@ -19,41 +20,51 @@ public:
 	// Sets default values for this actor's properties
 	ATrackerBase();
 
+	virtual void Tick(float DeltaTime) override;
 
-	
-	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
-	UCurveFloat* RotationCurve;
-	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
-	UCurveFloat* PositionXCurve;
-	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
-	UCurveFloat* PositionYCurve;
-	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
-	UCurveFloat* ScaleXCurve;
-	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
-	UCurveFloat* ScaleYCurve;
-	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
-	UCurveFloat* ScaleZCurve;
-
-	UPROPERTY(EditAnywhere, Category = "Tracker")
-	FCurveTableRowHandle RotationRowHandle;
-
-	UPROPERTY(EditAnywhere, Category = "Tracker")
-	FCurveTableRowHandle PositionXRowHandle;
-
-	UPROPERTY(EditAnywhere, Category = "Tracker")
-	FCurveTableRowHandle PositionYRowHandle;
-
-	UPROPERTY(EditAnywhere, Category = "Tracker")
-	FCurveTableRowHandle ScaleXRowHandle;
-
-	UPROPERTY(EditAnywhere, Category = "Tracker")
-	FCurveTableRowHandle ScaleYRowHandle;
-
-	UPROPERTY(EditAnywhere, Category = "Tracker")
-	FCurveTableRowHandle ScaleZRowHandle;
+	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
+	UCurveTable* CurveTable;
 
 	UFUNCTION(BlueprintCallable)
-	void initalizeCurves();	
+	void StartMovement();
+
+	UPROPERTY()
+	USceneComponent* Center;
+
+	UPROPERTY()
+	USceneComponent* PointOnSphere;
+
+	UPROPERTY()
+	USceneComponent* RotatingStuff;
+
+	UPROPERTY()
+	USceneComponent* NonRotatingStuff;
+
+	UPROPERTY(EditDefaultsOnly)
+	FVector DefaultLocation;
+
+	UPROPERTY(EditDefaultsOnly)
+	FRotator DefaultRotation;
+	   	
+	
+private:
+	UPROPERTY()
+	FRealCurve ScaleXCurve;
+	UPROPERTY()
+	FRealCurve ScaleYCurve;
+	UPROPERTY()
+	FRealCurve ScaleZCurve;
+	UPROPERTY()
+	FRealCurve PositionXCurve;
+	UPROPERTY()
+	FRealCurve PositionYCurve;
+	UPROPERTY()
+	FRealCurve RotationCurve;
+	
+	UFUNCTION()
+	void InitalizeMovement();
 
 
+	float CurrentTime = 0;
+	bool bIsMoving = false;
 };

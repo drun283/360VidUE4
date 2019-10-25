@@ -5,21 +5,81 @@
 
 
 
-
-
 // Sets default values
 ATrackerBase::ATrackerBase()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	//initalizeCurves();
+	Center = NewObject<USceneComponent>();
+	Center->SetWorldTransform(this->GetTransform());
+	PointOnSphere = NewObject<USceneComponent>();
+	PointOnSphere->SetWorldTransform(this->GetTransform());
+	RotatingStuff = NewObject<USceneComponent>();
+	RotatingStuff->SetWorldTransform(this->GetTransform());
+	NonRotatingStuff = NewObject<USceneComponent>();
+	NonRotatingStuff->SetWorldTransform(this->GetTransform());
+
+	FAttachmentTransformRules rules =
+	{
+		EAttachmentRule::KeepRelative,
+		EAttachmentRule::KeepRelative,
+		EAttachmentRule::KeepRelative,
+		false
+	};
+
+	RootComponent = Center;
+	PointOnSphere->AttachToComponent(Center, rules);
+	RotatingStuff->AttachToComponent(PointOnSphere, rules);
+	NonRotatingStuff->AttachToComponent(PointOnSphere, rules);
+
+	PointOnSphere->SetRelativeLocation(DefaultLocation);
+	PointOnSphere->SetRelativeRotation(DefaultRotation);
+
+
+	InitalizeMovement();
 }
 
 
 
-void ATrackerBase::initalizeCurves()
+void ATrackerBase::Tick(float DeltaTime)
 {
+	if (bIsMoving) {
+		CurrentTime += DeltaTime;
+
+		float scaleX = ScaleXCurve.Eval(CurrentTime);
+		float scaleY = ScaleYCurve.Eval(CurrentTime);
+		float scaleZ = ScaleZCurve.Eval(CurrentTime);
+		float posX = PositionXCurve.Eval(CurrentTime);
+		float posY = PositionYCurve.Eval(CurrentTime);
+		float rot = RotationCurve.Eval(CurrentTime);
+
+		Center->SetWorldRotation(FRotator(posX, posY, 0));
+		PointOnSphere->SetRelativeScale3D(FVector(scaleX, scaleY, scaleZ));
+		RotatingStuff->SetRelativeRotation(FRotator(0.0, 0.0, rot));
+	}
+}
+
+void ATrackerBase::StartMovement()
+{
+	bIsMoving = true;
+}
+
+void ATrackerBase::InitalizeMovement()
+{
+	if (CurveTable == nullptr) {
+		GLog->Log("ERROR: Null table");
+		return;		
+	}
+	TArray<FRichCurveEditInfo> curves = CurveTable->GetCurves();
+
+	ScaleXCurve = *curves[0].CurveToEdit;
+	ScaleYCurve = *curves[1].CurveToEdit;
+	ScaleZCurve = *curves[2].CurveToEdit;
+	PositionXCurve = *curves[3].CurveToEdit;
+	PositionYCurve = *curves[4].CurveToEdit;
+	RotationCurve = *curves[5].CurveToEdit;
+
+/*
 	//Rotation
 	if (RotationRowHandle.IsValid("Trying to access Rotation row")) {
 		FRichCurve* richCurve = RotationRowHandle.GetRichCurve("Trying to get rich curve from Rotation row");
@@ -105,4 +165,6 @@ void ATrackerBase::initalizeCurves()
 	else {
 		GLog->Log("ScaleZ row is invalid");
 	}
+*/
+
 }
