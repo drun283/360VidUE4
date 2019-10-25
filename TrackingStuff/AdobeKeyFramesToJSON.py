@@ -95,7 +95,7 @@ def writeToJson(jsonFileName, scaleXKeys, scaleYKeys, scaleZKeys, positionXKeys,
   data = []
   data.append(scaleXKeys)
   data.append(scaleYKeys)
-  data.append(scaleZKeys)
+  #data.append(scaleZKeys)
   data.append(positionXKeys)
   data.append(positionYKeys)
   #data.append(positionZKeys)
