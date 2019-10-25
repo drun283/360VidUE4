@@ -63,9 +63,9 @@ def initScaleKeys(lines, outXKeys, outYKeys, outZKeys):
   for line in lines:
     if len(line) > 0:
       entries = line.split()
-      outXKeys[float(entries[0]) / 30.0] = float(entries[1])
-      outYKeys[float(entries[0]) / 30.0] = float(entries[2])
-      outZKeys[float(entries[0]) / 30.0] = float(entries[3])
+      outXKeys[float(entries[0]) / 29.97] = (float(entries[1]) / 100.0)
+      outYKeys[float(entries[0]) / 29.97] = (float(entries[2]) / 100.0)
+      outZKeys[float(entries[0]) / 29.97] = (float(entries[3]) / 100.0)
 
 def initAnchorPointKeys(lines, outKeys):
   #todo
@@ -77,15 +77,15 @@ def initPositionKeys(lines, outXKeys, outYKeys, outZKeys):
   for line in lines:
     if len(line) > 0:
       entries = line.split()
-      outXKeys[float(entries[0]) / 30.0] = float(entries[1])
-      outYKeys[float(entries[0]) / 30.0] = float(entries[2])
-      outZKeys[float(entries[0]) / 30.0] = float(entries[3])
+      outXKeys[float(entries[0]) / 29.97] = (float(entries[1]) / 1920.0 * 360.0)
+      outYKeys[float(entries[0]) / 29.97] = (float(entries[2]) / 960.0 * 360)
+      outZKeys[float(entries[0]) / 29.97] = (float(entries[3])
 
 def initRotationKeys(lines, outRotationKeys):
   for line in lines:
     if len(line) > 0:
       entries = line.split()
-      outRotationKeys[float(entries[0]) / 30.0] = float(entries[1])
+      outRotationKeys[float(entries[0]) / 29.97] = float(entries[1])
 
 
 def writeToJson(jsonFileName, scaleXKeys, scaleYKeys, scaleZKeys, positionXKeys, positionYKeys, positionZKeys, rotationKeys):

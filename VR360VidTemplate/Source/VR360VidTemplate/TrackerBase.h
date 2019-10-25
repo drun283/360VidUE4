@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Engine/CurveTable.h"
 #include "Components/SceneComponent.h"
-#include "MediaAssets/Public/MediaPlayer.h"
+#include "Runtime/CoreUObject/Public/UObject/UnrealType.h"
 #include "TrackerBase.generated.h"
 
 
@@ -40,30 +40,34 @@ public:
 	UPROPERTY()
 	USceneComponent* NonRotatingStuff;
 
-	UPROPERTY(EditDefaultsOnly)
+
+	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
 	FVector DefaultLocation;
 
-	UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
 	FRotator DefaultRotation;
 	   	
 	
 private:
 	UPROPERTY()
-	FRealCurve ScaleXCurve;
+	FRichCurve ScaleXCurve;
 	UPROPERTY()
-	FRealCurve ScaleYCurve;
+	FRichCurve ScaleYCurve;
 	UPROPERTY()
-	FRealCurve ScaleZCurve;
+	FRichCurve ScaleZCurve;
 	UPROPERTY()
-	FRealCurve PositionXCurve;
+	FRichCurve PositionXCurve;
 	UPROPERTY()
-	FRealCurve PositionYCurve;
+	FRichCurve PositionYCurve;
 	UPROPERTY()
-	FRealCurve RotationCurve;
+	FRichCurve RotationCurve;
 	
 	UFUNCTION()
 	void InitalizeMovement();
 
+#if WITH_EDITOR
+	virtual void PostEditChangeProperty(struct FPropertyChangedEvent& PropertyChangedEvent) override;
+#endif
 
 	float CurrentTime = 0;
 	bool bIsMoving = false;
