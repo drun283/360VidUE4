@@ -78,7 +78,7 @@ def initPositionKeys(lines, outXKeys, outYKeys, outZKeys):
     if len(line) > 0:
       entries = line.split()
       outXKeys[float(entries[0]) / 29.97] = (float(entries[1]) / 1920.0 * 360.0) - 90.0
-      outYKeys[float(entries[0]) / 29.97] = (float(entries[2]) / 960.0 * 360) - 180.0
+      outYKeys[float(entries[0]) / 29.97] = (float(entries[2]) / 960.0 * 180) - 90
       outZKeys[float(entries[0]) / 29.97] = float(entries[3])
 
 def initRotationKeys(lines, outRotationKeys):
