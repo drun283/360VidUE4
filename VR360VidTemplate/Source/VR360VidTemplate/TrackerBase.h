@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Engine/CurveTable.h"
-#include "Curves\CurveFloat.h"
+#include "Curves/CurveFloat.h"
 #include "TrackerBase.generated.h"
 
 
@@ -22,26 +22,35 @@ public:
 
 	
 	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
-	UCurveFloat* XDeg;
+	UCurveFloat* RotationCurve;
 	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
-	UCurveFloat* YDeg;
+	UCurveFloat* PositionXCurve;
 	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
-	UCurveFloat* ZDeg;
+	UCurveFloat* PositionYCurve;
 	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
-	UCurveFloat* Scale;
-
-	
-	UPROPERTY(EditAnywhere, Category = "Tracker")
-	FCurveTableRowHandle XDegRowHandle;
-
-	UPROPERTY(EditAnywhere, Category = "Tracker")
-	FCurveTableRowHandle YDegRowHandle;
+	UCurveFloat* ScaleXCurve;
+	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
+	UCurveFloat* ScaleYCurve;
+	UPROPERTY(BlueprintReadOnly, Category = "Tracker")
+	UCurveFloat* ScaleZCurve;
 
 	UPROPERTY(EditAnywhere, Category = "Tracker")
-	FCurveTableRowHandle ZDegRowHandle;
+	FCurveTableRowHandle RotationRowHandle;
 
 	UPROPERTY(EditAnywhere, Category = "Tracker")
-	FCurveTableRowHandle ScaleRowHandle;
+	FCurveTableRowHandle PositionXRowHandle;
+
+	UPROPERTY(EditAnywhere, Category = "Tracker")
+	FCurveTableRowHandle PositionYRowHandle;
+
+	UPROPERTY(EditAnywhere, Category = "Tracker")
+	FCurveTableRowHandle ScaleXRowHandle;
+
+	UPROPERTY(EditAnywhere, Category = "Tracker")
+	FCurveTableRowHandle ScaleYRowHandle;
+
+	UPROPERTY(EditAnywhere, Category = "Tracker")
+	FCurveTableRowHandle ScaleZRowHandle;
 
 	UFUNCTION(BlueprintCallable)
 	void initalizeCurves();	
