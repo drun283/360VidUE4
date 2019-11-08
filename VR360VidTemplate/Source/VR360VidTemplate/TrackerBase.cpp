@@ -29,7 +29,6 @@ ATrackerBase::ATrackerBase()
 	RotatingStuff->SetupAttachment(PointOnSphere);
 	NonRotatingStuff->SetupAttachment(PointOnSphere);
 
-	//Center->SetRelativeRotation(FRotator(0.0, -90, 0.0));
 
 	PointOnSphere->SetRelativeLocation(DefaultLocation);
 	PointOnSphere->SetRelativeRotation(FRotator(0.0, 90, 0.0));
@@ -53,7 +52,7 @@ void ATrackerBase::Tick(float DeltaTime)
 
 		Center->SetWorldRotation(FRotator(pitch, yaw, 0));
 		//PointOnSphere->SetRelativeScale3D(FVector(scaleX, 1.0, scaleY));
-		//RotatingStuff->SetRelativeRotation(FRotator(rot, 0.0, 0.0));
+		RotatingStuff->SetRelativeRotation(FRotator(rot, 0.0, 0.0));
 	}
 
 }
