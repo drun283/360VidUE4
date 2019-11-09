@@ -52,7 +52,7 @@ void ATrackerBase::Tick(float DeltaTime)
 
 		Center->SetWorldRotation(FRotator(pitch, yaw, 0));
 		//PointOnSphere->SetRelativeScale3D(FVector(scaleX, 1.0, scaleY));
-		RotatingStuff->SetRelativeRotation(FRotator(rot, 0.0, 0.0));
+		//RotatingStuff->SetRelativeRotation(FRotator(rot, 0.0, 0.0));
 	}
 
 }
