@@ -2,107 +2,167 @@ import sys
 import os
 import json
 
+
 def main(argv):
+    if len(argv) < 1:
+        print('please provide files to convert to json')
+        sys.exit(1)
 
-  if len(argv) < 1:
-    print('please provide files to convert to json')
-    sys.exit(1)
+    for file_name in argv:
 
-  for fileName in argv:
+        if not os.path.isfile(file_name):
+            print("File path {} does not exist.".format(file_name))
+            continue
 
-    if not os.path.isfile(fileName):
-      print("File path {} does not exist.".format(fileName))
-      continue
+        with open(file_name) as file:
+            lines = file.readlines()
 
+        scale_lines = []
+        position_lines = []
+        rotation_lines = []
+        partitionLines(lines, scale_lines, position_lines, rotation_lines)
 
-    # get lines from file
-    lines = []
-    gotLines = False
-    with open(fileName) as file:
+        scale_x_keys = {"Name": "Scale X"}
+        scale_y_keys = {"Name": "Scale Y"}
+        position_x_keys = {"Name": "Position X"}
+        position_y_keys = {"Name": "Position Y"}
+        rotation_keys = {"Name": "Rotation"}
+        initScaleKeys(scale_lines, scale_x_keys, scale_y_keys)
+        initPositionKeys(position_lines, position_x_keys, position_y_keys)
+        initRotationKeys(rotation_lines, rotation_keys)
 
-      lines = file.readlines()
-      gotLines = True
-    if not gotLines:
-      print('could not get lines from {}'.format(fileName))
-      continue
-
-
-    # get beginning of each section
-    startIndexes = []
-    for i, line in enumerate(lines):
-      if line.startswith("Transform"):
-        startIndexes.append(i)
-    # use beginnings to make bounds for each section's data
-    partitions = []
-    for i in range(len(startIndexes)):
-      if i < len(startIndexes) - 1:   # this will ignore the opacity transform
-        partitions.append((startIndexes[i] + 2, startIndexes[i+1] - 1))
+        json_name = convertFileName(file_name)
+        print("writing {} to {}".format(file_name, json_name))
+        dumpJsonToFile(json_name, scale_x_keys, scale_y_keys, position_x_keys, position_y_keys, rotation_keys)
 
 
-    # split keys into groups using above partitions
-    scaleXKeys = {"Name": "Scale X"}
-    scaleXKeys[0.0] = 0.0
-    scaleYKeys = {"Name": "Scale Y"}
-    scaleYKeys[0.0] = 0.0
-    scaleZKeys = {"Name": "Scale Z"}
-    scaleZKeys[0.0] = 0.0
-    positionXKeys = {"Name": "Position X"}
-    positionYKeys = {"Name": "Position Y"}
-    positionZKeys = {"Name": "Position Z"}
-    rotationKeys = {"Name": "Rotation"}
 
-    initScaleKeys(lines[partitions[0][0]:partitions[0][1]], scaleXKeys, scaleYKeys, scaleZKeys)
-    #initAnchorPointKeys(lines[partitions[1][0]:partitions[1][1]], keys)
-    initPositionKeys(lines[partitions[2][0]:partitions[2][1]], positionXKeys, positionYKeys, positionZKeys)
-    initRotationKeys(lines[partitions[3][0]:partitions[3][1]], rotationKeys)
+def partitionLines(lines, out_scale_lines, out_position_lines, out_rotation_lines):
+    """ splits lines into partitions for scale, position, and rotation """
+    # todo make this more efficient
+    scale_start = -1
+    scale_end = -1
+    position_start = -1
+    position_end = -1
+    rotation_start = -1
+    rotation_end = -1
 
-    jsonName = fileName[:-4] + '.json'
-    print("writing {} to {}".format(fileName, jsonName))
-    writeToJson(jsonName, scaleXKeys, scaleYKeys, scaleZKeys, positionXKeys, positionYKeys, positionZKeys, rotationKeys)
-    print("finished")
-
-
-def initScaleKeys(lines, outXKeys, outYKeys, outZKeys):
-  for line in lines:
-    if len(line) > 0:
-      entries = line.split()
-      outXKeys[float(entries[0]) / 29.97] = (float(entries[1]) / 100.0)
-      outYKeys[float(entries[0]) / 29.97] = (float(entries[2]) / 100.0)
-      outZKeys[float(entries[0]) / 29.97] = (float(entries[3]) / 100.0)
-
-def initAnchorPointKeys(lines, outKeys):
-  #todo
-  for line in lines:
-    if len(line) > 0:
-      entries = line.split()
-
-def initPositionKeys(lines, outXKeys, outYKeys, outZKeys):
-  for line in lines:
-    if len(line) > 0:
-      entries = line.split()
-      outXKeys[float(entries[0]) / 29.97] = (((float(entries[1]) / 1920.0) * 360.0) - 180) # divide by canvas width and multiply by 360 degrees and convert to -180 to 180
-      outYKeys[float(entries[0]) / 29.97] = (((float(entries[2]) / 960.0) * 180.0) - 90) # divide by canvas height and multiply by 180 degrees and convert to -90 to 90
-      outZKeys[float(entries[0]) / 29.97] = float(entries[3])
-
-def initRotationKeys(lines, outRotationKeys):
-  for line in lines:
-    if len(line) > 0:
-      entries = line.split()
-      outRotationKeys[float(entries[0]) / 29.97] = float(entries[1])
+    i = 0
+    size = len(lines)
+    while i < size:
+        line = lines[i]
+        if "Scale" in line:
+            scale_start = i + 2
+            while not lines[i].isspace():
+                i += 1
+            scale_end = i
+        elif "Position" in line:
+            position_start = i + 2
+            while not lines[i].isspace():
+                i += 1
+            position_end = i
+        elif "Rotation" in line:
+            rotation_start = i + 2
+            while not lines[i].isspace():
+                i += 1
+            rotation_end = i
+        i += 1
+    out_scale_lines.extend(lines[scale_start:scale_end])
+    out_position_lines.extend(lines[position_start:position_end])
+    out_rotation_lines.extend(lines[rotation_start:rotation_end])
 
 
-def writeToJson(jsonFileName, scaleXKeys, scaleYKeys, scaleZKeys, positionXKeys, positionYKeys, positionZKeys, rotationKeys):
-  data = []
-  data.append(scaleXKeys)
-  data.append(scaleYKeys)
-  #data.append(scaleZKeys)
-  data.append(positionXKeys)
-  data.append(positionYKeys)
-  #data.append(positionZKeys)
-  data.append(rotationKeys)
+def initScaleKeys(lines, out_x_keys, out_y_keys):
 
-  with open(jsonFileName, 'w') as file:
-    json.dump(data, file, indent = 2)
+    line = lines[0]
+    entries = line.split()
+    start_time = secondsFromFrame(int(entries[0]) - 1)
+    out_x_keys[0] = 0
+    out_y_keys[0] = 0
+    out_x_keys[start_time] = 0
+    out_y_keys[start_time] = 0
+
+    for line in lines:
+        if len(line) > 0:
+            entries = line.split()
+
+            seconds = secondsFromFrame(int(entries[0]))
+            x = convertScale(float(entries[1]))
+            y = convertScale(float(entries[2]))
+
+            out_x_keys[seconds] = x
+            out_y_keys[seconds] = y
+
+
+def initPositionKeys(lines, out_x_keys, out_y_keys):
+
+    line = lines[0]
+    entries = line.split()
+    initial_x = widthToDeg(float(entries[1]))
+    initial_y = heightToDeg(float(entries[2]))
+    out_x_keys[0] = initial_x
+    out_y_keys[0] = initial_y
+
+    for line in lines:
+        if len(line) > 0:
+            entries = line.split()
+
+            seconds = secondsFromFrame(int(entries[0]))
+            x = widthToDeg(float(entries[1]))
+            y = heightToDeg(float(entries[2]))
+
+            out_x_keys[seconds] = x
+            out_y_keys[seconds] = y
+
+
+def initRotationKeys(lines, out_keys):
+
+    line = lines[0]
+    entries = line.split()
+    initial_rot = float(entries[1])
+    out_keys[0] = initial_rot
+
+    for line in lines:
+        if len(line) > 0:
+            entries = line.split()
+
+            seconds = secondsFromFrame(int(entries[0]))
+            rot = float(entries[1])
+
+            out_keys[seconds] = rot
+
+
+def convertScale(scale):
+    """ convert from 0 - 100 to 0 - 1 """
+    return scale / 100
+
+
+def widthToDeg(width):
+    """ divide by canvas width and multiply by 360 degrees and shift to -180 to 180 """
+    return ((width / 1920.0) * 360.0) - 180
+
+
+def heightToDeg(height):
+    """ divide by canvas height and multiply by 180 degrees and shift to -90 to 90"""
+    return ((height / 960) * 180) - 90
+
+
+def secondsFromFrame(frame):
+    """ divide by frame rate """
+    return frame / 29.97
+
+
+def convertFileName(file_name):
+    """ changes '.txt' to '.json '"""
+    return file_name[:-4] + '.json'
+
+
+def dumpJsonToFile(file_name, scale_x_keys, scale_y_keys, position_x_keys, position_y_keys, rotation_keys):
+    data = [scale_x_keys, scale_y_keys, position_x_keys, position_y_keys, rotation_keys]
+
+    with open(file_name, 'w') as file:
+        json.dump(data, file, indent=2)
+
 
 if __name__ == "__main__":
-  main(sys.argv[1:])
+    main(sys.argv[1:])
