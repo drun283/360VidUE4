@@ -44,15 +44,24 @@ void ATrackerBase::Tick(float DeltaTime)
 	if (bIsMoving) {
 		CurrentTime += DeltaTime;
 
-		float scaleX = ScaleXCurve.Eval(CurrentTime);
-		float scaleY = ScaleYCurve.Eval(CurrentTime);
-		float yaw = PositionXCurve.Eval(CurrentTime) + 90.0;
-		float pitch = PositionYCurve.Eval(CurrentTime);
-		float rot = RotationCurve.Eval(CurrentTime);
+		if (bIsUsingPosition)
+		{
+			float yaw = PositionXCurve.Eval(CurrentTime) + 90.0 + HorizontalCorrection;
+			float pitch = PositionYCurve.Eval(CurrentTime) + VerticalCorrection;
+			Center->SetWorldRotation(FRotator(pitch, yaw, 0));
+		}
+		if (bIsUsingScale)
+		{
+			float scaleX = ScaleXCurve.Eval(CurrentTime);
+			float scaleY = ScaleYCurve.Eval(CurrentTime);
+			PointOnSphere->SetRelativeScale3D(FVector(scaleX, 1.0, scaleY));
+		}
+		if (bIsUsingRotation)
+		{
+			float rot = RotationCurve.Eval(CurrentTime);
+			RotatingStuff->SetRelativeRotation(FRotator(rot, 0.0, 0.0));
+		}
 
-		Center->SetWorldRotation(FRotator(pitch, yaw, 0));
-		//PointOnSphere->SetRelativeScale3D(FVector(scaleX, 1.0, scaleY));
-		//RotatingStuff->SetRelativeRotation(FRotator(rot, 0.0, 0.0));
 	}
 
 }
@@ -64,15 +73,12 @@ void ATrackerBase::StartMovement()
 
 void ATrackerBase::InitalizeMovement()
 {
-	GLog->Log("Trying to initalize movement");
 	if (CurveTable == nullptr) {
-		GLog->Log("ERROR: null table");
 		return;
 	}
 
 	if(!CurveTable->HasRichCurves())
 	{
-		GLog->Log("ERROR: table doesn't have rich curves");
 		return;
 	}
 
@@ -87,16 +93,13 @@ void ATrackerBase::InitalizeMovement()
 void ATrackerBase::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
 {
 	FName PropertyName = (PropertyChangedEvent.Property != nullptr) ? PropertyChangedEvent.Property->GetFName() : NAME_None;
-	GLog->Log(PropertyName.ToString() + " changed");
 	if (PropertyName == "X" || PropertyName == "Y" || PropertyName == "Z" || PropertyName == "DefaultLocation")
 	{
-		GLog->Log("Resetting point on sphere distance after value change");
 		PointOnSphere->SetRelativeLocation(DefaultLocation);
 	}
 
 	else if (PropertyName == GET_MEMBER_NAME_CHECKED(ATrackerBase, CurveTable))
 	{
-		GLog->Log("Resetting curves after table change");
 		InitalizeMovement();
 	}
 

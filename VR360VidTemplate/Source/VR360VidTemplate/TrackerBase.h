@@ -43,7 +43,21 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
 	FVector DefaultLocation;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
+	bool bIsUsingPosition = true;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
+	bool bIsUsingScale = false;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
+	bool bIsUsingRotation = false;
 	   	
+	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
+	float VerticalCorrection;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
+	float HorizontalCorrection;
 	
 private:
 	UPROPERTY()
