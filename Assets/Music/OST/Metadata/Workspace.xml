@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Workspace" id="{d9ced1fa-bf85-4b46-85f6-5761da51407d}">
+		<property name="builtBanksOutputDirectory">
+			<value>C:/360VidUE4.git/trunk/VR360VidTemplate/Content/FMOD</value>
+		</property>
+		<property name="builtBanksMirrorBrowserFolderHierarchy">
+			<value>true</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{753cfece-3a90-42cb-9220-450c653e4d09}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{af9dd15b-9d72-4c4c-8f4a-16c49627c219}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{c215efdc-c3da-4828-b6a3-0cbdfe7b9d93}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{28115d2c-7481-4903-89fb-05b82c85b2cb}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{7ca284e9-1b42-4543-80d4-1c172f6eb163}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{e4b24308-6811-4af0-8228-892ef440ed52}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{a556c53f-0a70-4070-bc67-a5243e2532f7}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{3cfe438c-e2f4-4fc4-ad63-caee0d2efc80}</destination>
+		</relationship>
+	</object>
+</objects>
