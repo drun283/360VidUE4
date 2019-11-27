@@ -46,7 +46,7 @@ void ATrackerBase::Tick(float DeltaTime)
 
 		if (bIsUsingPosition)
 		{
-			float yaw = PositionXCurve.Eval(CurrentTime) + 90.0 + HorizontalCorrection;
+			float yaw = PositionXCurve.Eval(CurrentTime) + 90 + HorizontalCorrection;
 			float pitch = PositionYCurve.Eval(CurrentTime) + VerticalCorrection;
 			Center->SetWorldRotation(FRotator(pitch, yaw, 0));
 		}
