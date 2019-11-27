@@ -72,7 +72,7 @@ def readInKeys(point_one_lines, point_two_lines):
 
             seconds = secondsFromFrame(int(entries[0]))
             x = float(entries[1])
-            y = float(entries[2])
+            y = abs(float(entries[2]) - 960)
 
             keys[seconds]['x1'] = x
             keys[seconds]['y1'] = y
@@ -83,7 +83,7 @@ def readInKeys(point_one_lines, point_two_lines):
 
             seconds = secondsFromFrame(int(entries[0]))
             x = float(entries[1])
-            y = float(entries[2])
+            y = abs(float(entries[2]) - 960)
 
             keys[seconds]['x2'] = x
             keys[seconds]['y2'] = y
