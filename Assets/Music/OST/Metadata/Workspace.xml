@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Workspace" id="{d9ced1fa-bf85-4b46-85f6-5761da51407d}">
 		<property name="builtBanksOutputDirectory">
-			<value>C:/360VidUE4.git/trunk/VR360VidTemplate/Content/FMOD</value>
+			<value>../../../VR360VidTemplate/Content/FMOD</value>
 		</property>
 		<property name="builtBanksMirrorBrowserFolderHierarchy">
 			<value>true</value>
