@@ -1,0 +1,32 @@
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/TextProperty.h
+D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudioEditor/Private/Sequencer/FMODChannelEditors.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MovieScene\Public\MovieSceneKeyStruct.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\moviescene\public\MovieSceneKeyStructHelper.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\moviescene\public\Channels/MovieSceneChannelTraits.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\moviescene\public\channels\MovieSceneChannelEditorData.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTemplateInstance.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceTemplateStore.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\moviescene\public\Evaluation/MovieSceneRootOverridePath.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTemplateInstance.generated.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\moviescene\public\Channels/MovieSceneChannelHandle.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneKeyStruct.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Editor\Sequencer\Public\SequencerChannelTraits.h
+c:\program files\epic games\ue_4.23\engine\source\editor\sequencer\public\ISequencerChannelInterface.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneChannelProxy.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneChannelEditorDataEntry.h
+c:\program files\epic games\ue_4.23\engine\source\editor\sequencer\public\KeyDrawParams.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneChannelData.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneChannelData.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MovieScene\Public\MovieSceneClipboard.h
+c:\program files\epic games\ue_4.23\engine\source\editor\sequencer\public\SequencerClipboardReconciler.h
+c:\program files\epic games\ue_4.23\engine\source\editor\sequencer\public\SequencerKeyStructGenerator.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sequencer\SequencerKeyStructGenerator.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneByteChannel.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\moviescene\public\channels\MovieSceneChannel.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneChannel.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneByteChannel.generated.h
+D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer/FMODEventControlSection.h
+D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEventControlSection.generated.h
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\intermediate\build\win64\ue4editor\inc\fmodstudioeditor\FMODChannelEditors.generated.h
