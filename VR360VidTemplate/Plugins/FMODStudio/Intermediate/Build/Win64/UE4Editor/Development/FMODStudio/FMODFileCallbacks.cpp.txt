@@ -1,0 +1,82 @@
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\private\FMODFileCallbacks.h
+D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod.hpp
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_common.h
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_codec.h
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp.h
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp_effects.h
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_output.h
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.h
+D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODUtils.h
+D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio.hpp
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio_common.h
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/Engine.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/World.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\CollisionQueryParams.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\WorldCollision.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\PhysicsCore\Public\CollisionShape.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\InputCore\Classes\InputCoreTypes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/Attribute.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore\InputCoreTypes.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/ChildActorComponent.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ChildActorComponent.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\RenderCore\Public\RenderCommandFence.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/ITransaction.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\misc\Change.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/Level.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Templates/ScopedCallback.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/MaterialMerging.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialMerging.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Level.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Actor.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAgentInterface.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationTypes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/CoreStats.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationTypes.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAgentInterface.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Pawn.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\EngineDefines.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/Blueprint.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintCore.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlueprintCore.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\Blueprint/BlueprintSupport.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Blueprint.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/PendingNetGame.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\engine\classes\engine\NetworkDelegates.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PendingNetGame.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/LatentActionManager.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LatentActionManager.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/GameInstance.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\Subsystems/GameInstanceSubsystem.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\Subsystems/Subsystem.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Subsystem.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameInstanceSubsystem.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\Subsystems/SubsystemCollection.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GCObject.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameInstance.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfaceDeclares.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\PhysicsCore\Public\PhysicsInterfaceDeclaresCore.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Particles/WorldPSCPool.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\WorldPSCPool.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Containers/SortedMap.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\World.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/BufferedOutputDevice.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/FrameRate.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/FrameTime.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/ExpressionParserTypes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/ExpressionParserTypes.inl
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\Subsystems/EngineSubsystem.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EngineSubsystem.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Engine.generated.h
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\FMODStudioModule.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Modules/Boilerplate/ModuleBoilerplate.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/FileManager.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformFile.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/Runnable.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/RunnableThread.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/PlatformAffinity.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAffinity.h

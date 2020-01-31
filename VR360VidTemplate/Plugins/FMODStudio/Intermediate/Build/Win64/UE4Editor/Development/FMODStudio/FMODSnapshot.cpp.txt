@@ -1,0 +1,10 @@
+D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshot.h
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\classes\FMODEvent.h
+d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\classes\FMODAsset.h
+D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAsset.generated.h
+D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEvent.generated.h
+D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODSnapshot.generated.h
+D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODStudioModule.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Modules/Boilerplate/ModuleBoilerplate.h
