@@ -7,18 +7,21 @@ Adobe After Effects 8.0 Keyframe Data
 	Comp Pixel Aspect Ratio	1
 
 Motion Trackers	Tracker #1	Track Point #1	Feature Center
-	Frame	X pixels	Y pixels		
-	2	50	51
-	3	50	51
-	4	50	51
-	5	50	51	
+	Frame	X pixels	Y pixels
+	6	0	0	
+	7	0	960	
+	8	1920	0
+	9	1920	960
+	10	960	480
 
 Motion Trackers	Tracker #1	Track Point #2	Feature Center
 	Frame	X pixels	Y pixels
-	2	52	53
-	3	52	53
-	4	52	53
-	5	52	53	
+	6	0	0	
+	7	0	960	
+	8	1920	0
+	9	1920	960
+	10	960	480	
+		
 
 
 End of Keyframe Data
