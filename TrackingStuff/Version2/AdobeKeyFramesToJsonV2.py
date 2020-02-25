@@ -20,23 +20,25 @@ def main(argv):
 
         point_one_lines = []
         point_two_lines = []
-        partitionLines(lines, point_one_lines, point_two_lines)
+        partition_lines(lines, point_one_lines, point_two_lines)
 
-        point_keys = readInKeys(point_one_lines, point_two_lines)
+        point_keys = read_in_keys(point_one_lines, point_two_lines)
 
         scale_x_keys = {"Name": "Scale X"}
         scale_y_keys = {"Name": "Scale Y"}
         position_x_keys = {"Name": "Position X"}
         position_y_keys = {"Name": "Position Y"}
         rotation_keys = {"Name": "Rotation"}
-        initKeys(point_keys, position_x_keys, position_y_keys, scale_x_keys, scale_y_keys, rotation_keys)
+        init_keys(point_keys, position_x_keys, position_y_keys, scale_x_keys, scale_y_keys, rotation_keys)
 
-        json_name = convertFileName(file_name)
+		clean_up_keys(position_x_keys, position_y_keys, scale_x_keys, scale_y_keys, rotation_keys)
+
+        json_name = convert_filename(file_name)
         print("writing {} to {}".format(file_name, json_name))
-        dumpJsonToFile(json_name, scale_x_keys, scale_y_keys, position_x_keys, position_y_keys, rotation_keys)
+        dump_json_to_file(json_name, scale_x_keys, scale_y_keys, position_x_keys, position_y_keys, rotation_keys)
 
 
-def partitionLines(lines, out_point_one_lines, out_point_two_lines):
+def partition_lines(lines, out_point_one_lines, out_point_two_lines):
     """ splits lines into partitions for scale, position, and rotation """
     # todo make this more efficient
     point_one_start = -1
@@ -63,14 +65,14 @@ def partitionLines(lines, out_point_one_lines, out_point_two_lines):
     out_point_two_lines.extend(lines[point_two_start:point_two_end])
 
 
-def readInKeys(point_one_lines, point_two_lines):
+def read_in_keys(point_one_lines, point_two_lines):
     keys = collections.defaultdict(dict)
 
     for line in point_one_lines:
         if len(line) > 0:
             entries = line.split()
 
-            seconds = secondsFromFrame(int(entries[0]))
+            seconds = seconds_from_frame(int(entries[0]))
             x = float(entries[1])
             y = abs(float(entries[2]) - 960)
 
@@ -81,7 +83,7 @@ def readInKeys(point_one_lines, point_two_lines):
         if len(line) > 0:
             entries = line.split()
 
-            seconds = secondsFromFrame(int(entries[0]))
+            seconds = seconds_from_frame(int(entries[0]))
             x = float(entries[1])
             y = abs(float(entries[2]) - 960)
 
@@ -91,12 +93,12 @@ def readInKeys(point_one_lines, point_two_lines):
     return keys
 
 
-def initKeys(point_keys, out_position_x_keys, out_position_y_keys, out_scale_x_keys, out_scale_y_keys, out_rotation_keys):
-    # todo init keys for seconds 0 and one frame before start of keys
+def init_keys(point_keys, out_position_x_keys, out_position_y_keys, out_scale_x_keys, out_scale_y_keys, out_rotation_keys):
+    # todo init keys for seconds 0 and one frame before start of keys (see clean_keys for example)
     for seconds, coords in point_keys.items():
-        px, py = positionFromPoints(coords)
-        sx, sy = scaleFromPoints(coords)
-        r = rotationFromPoints(coords)
+        px, py = position_from_points(coords)
+        sx, sy = scale_from_points(coords)
+        r = rotation_from_points(coords)
 
         out_position_x_keys[seconds] = px
         out_position_y_keys[seconds] = py
@@ -105,81 +107,86 @@ def initKeys(point_keys, out_position_x_keys, out_position_y_keys, out_scale_x_k
         out_rotation_keys[seconds] = r
 
 
+def clean_up_keys(position_x_keys, position_y_keys, scale_x_keys, scale_y_keys, rotation_keys):
+	position_tol = 0.01
+	scale_tol = 0.01
+	rotation_tol = 0.01
 
-    ''' 
-    # old position init
-    line = lines[0]
-    entries = line.split()
-    initial_x = widthToDeg(float(entries[1]))
-    initial_y = heightToDeg(float(entries[2]))
-    out_x_keys[0] = initial_x
-    out_y_keys[0] = initial_y
-    '''
-    ''' 
-    # old scale init
-    line = lines[0]
-    entries = line.split()
-    start_time = secondsFromFrame(int(entries[0]) - 1)
-    out_x_keys[0] = 0
-    out_y_keys[0] = 0
-    out_x_keys[start_time] = 0
-    out_y_keys[start_time] = 0
-    '''
-    '''
-    # old rot init
-    line = lines[0]
-    entries = line.split()
-    initial_rot = float(entries[1])
-    out_keys[0] = initial_rot
-    '''
+	clean_keys(position_x_keys, position_tol)
+	clean_keys(position_y_keys, position_tol)
+	clean_keys(scale_x_keys, scale_tol)
+	clean_keys(scale_y_keys, scale_tol)
+	clean_keys(rotation_keys, rotation_tol)
 
 
-def positionFromPoints(coords):
+def clean_keys(keys, tol):
+	# todo write clean_keys
+	pass
+	to_delete []
+	prev = None
+
+	items_iter = iter(keys.items())
+	# todo this might not even "compile"
+	first = items_iter.next()
+	prev = first[1]
+
+	for time, value in items_iter:
+		if (value < prev + tol) and (value > prev - tol):
+			to_delete.append(time)
+		else:
+			prev = value
+
+
+	for time in to_delete:
+		del keys[time]
+
+	
+def position_from_points(coords):
     x = (coords['x1'] + coords['x2']) / 2.0
     y = (coords['y1'] + coords['y2']) / 2.0
-    x = widthToDeg(x)
-    y = heightToDeg(y)
+    x = deg_from_width(x)
+    y = deg_from_height(y)
     return x, y
 
 
-def scaleFromPoints(coords):
-    # todo write scaleFromPoints
+def scale_from_points(coords):
+    # todo write scale_from_points
     # need to keep track of initial scale
     return 1, 1
 
 
-def rotationFromPoints(coords):
-    # todo write rotationFromPoints
+def rotation_from_points(coords):
+    # todo write rotation_from_points
     # need to keep track of initial rotation
     return 0
 
 
-def convertScale(scale):
+def convert_scale(scale):
     """ convert from 0 - 100 to 0 - 1 """
     return scale / 100
 
 
-def widthToDeg(width):
+def deg_from_width(width):
     """ divide by canvas width and multiply by 360 degrees and shift to -180 to 180 """
     return ((width / 1920.0) * 360.0) - 180
 
 
-def heightToDeg(height):
+def deg_from_height(height):
     """ divide by canvas height and multiply by 180 degrees and shift to -90 to 90"""
     return ((height / 960) * 180) - 90
 
 
-def secondsFromFrame(frame):
+def seconds_from_frame(frame):
     """ divide by frame rate """
     return frame / 29.97
 
 
-def convertFileName(file_name):
+def convert_filename(file_name):
     """ changes '.txt' to '.json '"""
     return file_name[:-4] + '.json'
 
 
-def dumpJsonToFile(file_name, scale_x_keys, scale_y_keys, position_x_keys, position_y_keys, rotation_keys):
+def dump_json_to_file(file_name, scale_x_keys, scale_y_keys, position_x_keys, position_y_keys, rotation_keys):
     data = [scale_x_keys, scale_y_keys, position_x_keys, position_y_keys, rotation_keys]
 
     with open(file_name, 'w') as file:
