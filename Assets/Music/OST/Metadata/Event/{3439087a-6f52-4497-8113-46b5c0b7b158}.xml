@@ -4,7 +4,6 @@
 		<property name="name">
 			<value>PerformersMusic</value>
 		</property>
-		<property name="note" />
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
@@ -276,7 +275,7 @@
 			<value>1.8300000000000001</value>
 		</property>
 		<property name="length">
-			<value>199.02439909297053</value>
+			<value>200.16999999999999</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{e38dcb74-687e-4a88-aea9-355b0c6478e3}</destination>
@@ -309,7 +308,7 @@
 			<value>1.53</value>
 		</property>
 		<property name="length">
-			<value>192</value>
+			<value>205.47</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{5bd68801-1bd0-4edc-ac29-99a406ca623b}</destination>
@@ -342,7 +341,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>216</value>
+			<value>211</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{9d07d755-98b7-4ec8-9862-a277ca6a4760}</destination>
