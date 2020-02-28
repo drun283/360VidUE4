@@ -21,7 +21,6 @@ def main(argv):
         point_one_lines = []
         point_two_lines = []
         partition_lines(lines, point_one_lines, point_two_lines)
-
         point_keys = read_in_keys(point_one_lines, point_two_lines)
 
         scale_x_keys = {"Name": "Scale X"}
@@ -61,13 +60,13 @@ def partition_lines(lines, out_point_one_lines, out_point_two_lines):
                 i += 1
             point_two_end = i
         i += 1
+
     out_point_one_lines.extend(lines[point_one_start:point_one_end])
     out_point_two_lines.extend(lines[point_two_start:point_two_end])
 
 
 def read_in_keys(point_one_lines, point_two_lines):
     keys = collections.defaultdict(dict)
-
     for line in point_one_lines:
         if len(line) > 0:
             entries = line.split()
