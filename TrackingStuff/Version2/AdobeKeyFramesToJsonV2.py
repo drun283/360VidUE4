@@ -31,7 +31,7 @@ def main(argv):
         rotation_keys = {"Name": "Rotation"}
         init_keys(point_keys, position_x_keys, position_y_keys, scale_x_keys, scale_y_keys, rotation_keys)
 
-		clean_up_keys(position_x_keys, position_y_keys, scale_x_keys, scale_y_keys, rotation_keys)
+		# clean_up_keys(position_x_keys, position_y_keys, scale_x_keys, scale_y_keys, rotation_keys)
 
         json_name = convert_filename(file_name)
         print("writing {} to {}".format(file_name, json_name))
@@ -122,7 +122,7 @@ def clean_up_keys(position_x_keys, position_y_keys, scale_x_keys, scale_y_keys, 
 def clean_keys(keys, tol):
 	# todo write clean_keys
 	pass
-	to_delete []
+	to_delete =  []
 	prev = None
 
 	items_iter = iter(keys.items())
@@ -140,7 +140,7 @@ def clean_keys(keys, tol):
 	for time in to_delete:
 		del keys[time]
 
-	
+
 def position_from_points(coords):
     x = (coords['x1'] + coords['x2']) / 2.0
     y = (coords['y1'] + coords['y2']) / 2.0
