@@ -1,17 +1,17 @@
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAmbientSound.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAsset.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBank.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAudioComponent.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODEvent.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSettings.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODVCA.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshot.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshotReverb.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAnimNotifyPlay.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBus.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBlueprintStatics.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSection.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlTrack.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterSectionTemplate.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterTrack.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSectionTemplate.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAmbientSound.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAsset.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAudioComponent.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBank.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBlueprintStatics.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODEvent.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSettings.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshot.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODVCA.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBus.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshotReverb.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAnimNotifyPlay.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSection.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterSectionTemplate.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterTrack.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSectionTemplate.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlTrack.h

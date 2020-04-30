@@ -1,7 +1,7 @@
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/TextProperty.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio/Private/Sequencer/FMODEventParameterTrack.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio/Private/Sequencer/FMODEventParameterTrack.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MovieSceneTracks\Public\Sections/MovieSceneParameterSection.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Curves/KeyHandle.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KeyHandle.generated.h
@@ -117,4 +117,4 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks\MovieSceneParameterSection.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MovieScene\Public\MovieSceneNameableTrack.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneNameableTrack.generated.h
-d:\360vidue4\trunk\vr360vidtemplate\plugins\fmodstudio\intermediate\build\win64\ue4editor\inc\fmodstudio\FMODEventParameterTrack.generated.h
+c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\intermediate\build\win64\ue4editor\inc\fmodstudio\FMODEventParameterTrack.generated.h

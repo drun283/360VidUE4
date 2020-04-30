@@ -1,4 +1,4 @@
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer/FMODChannelEditors.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer/FMODChannelEditors.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MovieScene\Public\MovieSceneKeyStruct.h
 c:\program files\epic games\ue_4.23\engine\source\runtime\moviescene\public\MovieSceneKeyStructHelper.h
 c:\program files\epic games\ue_4.23\engine\source\runtime\moviescene\public\Channels/MovieSceneChannelTraits.h
@@ -24,9 +24,9 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MovieScene\Public\Chan
 c:\program files\epic games\ue_4.23\engine\source\runtime\moviescene\public\channels\MovieSceneChannel.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneChannel.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneByteChannel.generated.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer/FMODEventControlSection.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEventControlSection.generated.h
-D:\360VidUE4\trunk\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudioEditor\FMODChannelEditors.generated.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer/FMODEventControlSection.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEventControlSection.generated.h
+C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudioEditor\FMODChannelEditors.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MovieScene\Public\MovieSceneTimeHelpers.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Editor\MovieSceneTools\Public\MovieSceneToolHelpers.h
 c:\program files\epic games\ue_4.23\engine\source\editor\moviescenetools\public\MovieSceneObjectBindingIDPicker.h
