@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f06ca723-62e5-4078-b9ba-bf79f9510634}">
+		<property name="assetPath">
+			<value>EndMusic/Out of Small Things v3.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>354.03755102040816</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e4b24308-6811-4af0-8228-892ef440ed52}</destination>
+		</relationship>
+	</object>
+</objects>

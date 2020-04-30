@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{4525eb5e-b06a-4472-964c-ef2427278c7d}">
+		<property name="assetPath">
+			<value>Spider/OOST_Blackout2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>14.321708333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e4b24308-6811-4af0-8228-892ef440ed52}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{a8182b97-5340-4dd3-aa45-4ead46f1e3d3}">
+		<property name="assetPath">
+			<value>Intro/IntroTransition.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.9038958333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e4b24308-6811-4af0-8228-892ef440ed52}</destination>
+		</relationship>
+	</object>
+</objects>
