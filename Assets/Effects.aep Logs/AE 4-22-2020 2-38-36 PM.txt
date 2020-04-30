@@ -1,0 +1,8 @@
+  4/22/2020 2:38:36 PM: Starting composition “StartingCircle”.
+
+  Output To: C:\GameProjects\Out of Small Things\360VidUE4\Assets\StartingCircle\StartingCircle\StartingCircle_[#####].png    4/22/2020 2:38:38 PM: Finished composition “StartingCircle”.
+
+
+  Total Time Elapsed: 2 Seconds
+Log closed on 4/22/2020 at 2:38:38 PM
+
