@@ -1,8 +1,18 @@
 Music Times
 
-Spider Start - 00;02;53;12
-Performers Music Stop - 00;03;19;16
-Stars Start - 00;03;55;08
-Spider End - 00;04;00;24
-Credits Start - 00;06;52;05
+Spider Start - 00;02;53;06 (173.25)
+Performers Music Stop - 00;03;19;06 (199.25)
+Stars Start - 00;03;55;04 (235.16666)
+Spider End - 00;04;00;09 (240.375)
+Credits Start - 00;06;52;00 (412.00)
 
+Add music for Beginning - needs checked
+
+Add music for Tutorial - needs checked
+
+SFX (with Tutorial paramater) - need to set up paramaters coorectly, in tracker parent bp
+Hover
+RingIn
+RingOut
+
+TitleSFX - needs checked

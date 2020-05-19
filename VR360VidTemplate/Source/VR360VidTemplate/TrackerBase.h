@@ -31,7 +31,7 @@ public:
 	UPROPERTY()
 	USceneComponent* Center;
 
-	UPROPERTY()
+	UPROPERTY(BlueprintReadOnly)
 	USceneComponent* PointOnSphere;
 
 	UPROPERTY()
