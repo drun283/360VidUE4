@@ -3,6 +3,11 @@ import sys
 import os
 import json
 
+FPS = 1
+WIDTH = 2
+HEIGHT = 3
+SETUP = {FPS: -1, WIDTH: -1, HEIGHT: -1}
+
 
 def main(argv):
     if len(argv) < 1:
@@ -18,10 +23,14 @@ def main(argv):
         with open(file_name) as file:
             lines = file.readlines()
 
+        setup_lines = []
         point_one_lines = []
         point_two_lines = []
-        partition_lines(lines, point_one_lines, point_two_lines)
+        partition_lines(lines, setup_lines, point_one_lines, point_two_lines)
+        read_setup(setup_lines)
         point_keys = read_in_keys(point_one_lines, point_two_lines)
+
+
 
         scale_x_keys = {"Name": "Scale X"}
         scale_y_keys = {"Name": "Scale Y"}
@@ -37,9 +46,20 @@ def main(argv):
         dump_json_to_file(json_name, scale_x_keys, scale_y_keys, position_x_keys, position_y_keys, rotation_keys)
 
 
-def partition_lines(lines, out_point_one_lines, out_point_two_lines):
+def read_setup(setup_lines):
+    for line in setup_lines:
+        if "Units Per Second" in line:
+            SETUP[FPS] = float(line.split()[-1])
+        elif "Source Width" in line:
+            SETUP[WIDTH] = float(line.split()[-1])
+        elif "Source Height" in line:
+            SETUP[HEIGHT] = float(line.split()[-1])
+
+
+def partition_lines(lines, out_setup_lines, out_point_one_lines, out_point_two_lines):
     """ splits lines into partitions for scale, position, and rotation """
     # todo make this more efficient
+    setup_end = -1
     point_one_start = -1
     point_one_end = -1
     point_two_start = -1
@@ -50,6 +70,7 @@ def partition_lines(lines, out_point_one_lines, out_point_two_lines):
     while i < size:
         line = lines[i]
         if "Point #1" in line:
+            setup_end = i - 1
             point_one_start = i + 2
             while not lines[i].isspace():
                 i += 1
@@ -61,6 +82,7 @@ def partition_lines(lines, out_point_one_lines, out_point_two_lines):
             point_two_end = i
         i += 1
 
+    out_setup_lines.extend(lines[:setup_end])
     out_point_one_lines.extend(lines[point_one_start:point_one_end])
     out_point_two_lines.extend(lines[point_two_start:point_two_end])
 
@@ -73,7 +95,7 @@ def read_in_keys(point_one_lines, point_two_lines):
 
             seconds = seconds_from_frame(int(entries[0]))
             x = float(entries[1])
-            y = abs(float(entries[2]) - 960)
+            y = abs(float(entries[2]) - SETUP[HEIGHT])
 
             keys[seconds]['x1'] = x
             keys[seconds]['y1'] = y
@@ -84,7 +106,7 @@ def read_in_keys(point_one_lines, point_two_lines):
 
             seconds = seconds_from_frame(int(entries[0]))
             x = float(entries[1])
-            y = abs(float(entries[2]) - 960)
+            y = abs(float(entries[2]) - SETUP[HEIGHT])
 
             keys[seconds]['x2'] = x
             keys[seconds]['y2'] = y
@@ -167,17 +189,17 @@ def convert_scale(scale):
 
 def deg_from_width(width):
     """ divide by canvas width and multiply by 360 degrees and shift to -180 to 180 """
-    return ((width / 1920.0) * 360.0) - 180
+    return ((width / SETUP[WIDTH]) * 360.0) - 180
 
 
 def deg_from_height(height):
     """ divide by canvas height and multiply by 180 degrees and shift to -90 to 90"""
-    return ((height / 960) * 180) - 90
+    return ((height / SETUP[HEIGHT]) * 180) - 90
 
 
 def seconds_from_frame(frame):
     """ divide by frame rate """
-    return frame / 29.97
+    return frame / SETUP[FPS]
 
 
 def convert_filename(file_name):

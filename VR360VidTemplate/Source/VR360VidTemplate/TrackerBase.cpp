@@ -49,10 +49,9 @@ void ATrackerBase::Tick(float DeltaTime)
 			float y = PositionXCurve.Eval(CurrentTime);
 			float p = PositionYCurve.Eval(CurrentTime);
 			//GLog->Log("yaw = " + FString::SanitizeFloat(y) + ", pitch = " + FString::SanitizeFloat(p));
-			float yaw = y - 90 + HorizontalCorrection;
-			float pitch = p + VerticalCorrection;
-			Center->SetWorldRotation(FRotator(pitch, yaw, 0));
+			Center->SetWorldRotation(FRotator(p + VerticalCorrection, y + HorizontalCorrection, 0));
 		}
+		/* // Not being used
 		if (bIsUsingScale)
 		{
 			float scaleX = ScaleXCurve.Eval(CurrentTime);
@@ -64,7 +63,7 @@ void ATrackerBase::Tick(float DeltaTime)
 			float rot = RotationCurve.Eval(CurrentTime);
 			RotatingStuff->SetRelativeRotation(FRotator(rot, 0.0, 0.0));
 		}
-
+		*/
 	}
 
 }
@@ -98,11 +97,13 @@ void ATrackerBase::PostEditChangeProperty(FPropertyChangedEvent& PropertyChanged
 	FName PropertyName = (PropertyChangedEvent.Property != nullptr) ? PropertyChangedEvent.Property->GetFName() : NAME_None;
 	if (PropertyName == "X" || PropertyName == "Y" || PropertyName == "Z" || PropertyName == "DefaultLocation")
 	{
+		GLog->Log("Updating default location for " + this->GetName());
 		PointOnSphere->SetRelativeLocation(DefaultLocation);
 	}
 
 	else if (PropertyName == GET_MEMBER_NAME_CHECKED(ATrackerBase, CurveTable))
 	{
+		GLog->Log("Updating curve table for " + this->GetName());
 		InitalizeMovement();
 	}
 
