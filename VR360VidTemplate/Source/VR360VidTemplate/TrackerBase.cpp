@@ -70,19 +70,27 @@ void ATrackerBase::Tick(float DeltaTime)
 
 void ATrackerBase::StartMovement()
 {
+	//GLog->Log(this->GetDebugName(this) + " has started movement");
 	bIsMoving = true;
 }
 
 void ATrackerBase::InitalizeMovement()
 {
 	if (CurveTable == nullptr) {
+		//GLog->Log(this->GetDebugName(this) + ": null table");
 		return;
 	}
 
 	if(!CurveTable->HasRichCurves())
 	{
+		//GLog->Log(this->GetDebugName(this) + ": does not have rich curves");
 		return;
 	}
+
+	//GLog->Log(this->GetDebugName(this));
+	//for (auto c : CurveTable->GetCurves()) {
+	//	GLog->Log(c.CurveName.ToString());
+	//}
 
 	ScaleXCurve = *CurveTable->FindRichCurve("ScaleX", "trying to get scale x");
 	ScaleYCurve = *CurveTable->FindRichCurve("ScaleY", "trying to get scale y");
