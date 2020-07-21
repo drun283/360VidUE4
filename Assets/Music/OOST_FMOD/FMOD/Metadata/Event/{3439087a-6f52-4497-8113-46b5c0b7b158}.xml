@@ -368,7 +368,7 @@
 			<value>1.8300000000000001</value>
 		</property>
 		<property name="length">
-			<value>178.18382902028804</value>
+			<value>178.22064766842772</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{c28ad6df-dbab-46d9-b859-40307af73747}</destination>
@@ -420,7 +420,7 @@
 			<value>1.53</value>
 		</property>
 		<property name="length">
-			<value>178.48382902028806</value>
+			<value>178.5382495454125</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{63a5b564-46ca-4722-abe9-201409346442}</destination>
@@ -472,7 +472,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>178.01382902028806</value>
+			<value>178.02684353440819</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{5079311b-e72a-4498-8c87-a1456701674b}</destination>
@@ -524,7 +524,7 @@
 			<value>1.8300000000000001</value>
 		</property>
 		<property name="length">
-			<value>178.18382902028804</value>
+			<value>178.19703074725322</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{e6e3a4f2-5b01-46fc-84ed-5bcee8b0db1e}</destination>
@@ -631,7 +631,7 @@
 			<value>1.8300000000000001</value>
 		</property>
 		<property name="length">
-			<value>178.18382902028804</value>
+			<value>178.21491678897269</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{7ad7f3d3-7441-4839-a0d7-5f1e72fdd170}</destination>
@@ -683,7 +683,7 @@
 			<value>1.53</value>
 		</property>
 		<property name="length">
-			<value>178.48382902028806</value>
+			<value>178.51559012856382</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{bcce5ee6-477b-4a62-9bcf-fd7c2fdcd3fe}</destination>
@@ -735,7 +735,7 @@
 			<value>1.1799999999999999</value>
 		</property>
 		<property name="length">
-			<value>178.83382902028805</value>
+			<value>178.86800877362774</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{3c218da6-99a2-4292-b579-2387a81a0879}</destination>
@@ -1265,7 +1265,7 @@
 	<object class="MixerBusFader" id="{6d45674d-1577-4712-aee2-fbd02358ff38}" />
 	<object class="AutomationPoint" id="{fd640d7e-0e0d-46db-b120-41db0376b1da}">
 		<property name="position">
-			<value>179</value>
+			<value>179.03681864813967</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1276,7 +1276,7 @@
 	</object>
 	<object class="AutomationPoint" id="{cb3c6cc1-c779-4d2d-a576-7921caa00a93}">
 		<property name="position">
-			<value>180.01382902028806</value>
+			<value>180.05064766842773</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -1314,7 +1314,7 @@
 	<object class="MixerBusFader" id="{69dc5130-7788-40d6-b92e-095f3a7b31d2}" />
 	<object class="AutomationPoint" id="{518a80c9-0087-445c-b656-54ec3585d118}">
 		<property name="position">
-			<value>179</value>
+			<value>179.05442052512444</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1325,7 +1325,7 @@
 	</object>
 	<object class="AutomationPoint" id="{9b594b70-8097-4c2b-9f35-97913d13fd33}">
 		<property name="position">
-			<value>180.01382902028806</value>
+			<value>180.0682495454125</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -1363,7 +1363,7 @@
 	<object class="MixerBusFader" id="{41710fb7-28c7-43e4-b03d-e532c2c9ca40}" />
 	<object class="AutomationPoint" id="{ca4249d3-baf5-40f7-a04f-7c376109323f}">
 		<property name="position">
-			<value>179</value>
+			<value>179.01301451412013</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1374,7 +1374,7 @@
 	</object>
 	<object class="AutomationPoint" id="{6523e1f9-09ee-4dfb-8a03-22521380bf6d}">
 		<property name="position">
-			<value>180.01382902028806</value>
+			<value>180.02684353440819</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -1412,7 +1412,7 @@
 	<object class="MixerBusFader" id="{94801ee3-1842-470a-95c2-ed06df1ad31d}" />
 	<object class="AutomationPoint" id="{c2259bb2-d166-49fc-94e6-1320c731496c}">
 		<property name="position">
-			<value>179</value>
+			<value>179.01320172696518</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1423,7 +1423,7 @@
 	</object>
 	<object class="AutomationPoint" id="{a73027c9-aef6-48e5-819d-bdf2478a2362}">
 		<property name="position">
-			<value>180.01382902028806</value>
+			<value>180.02703074725324</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -1510,7 +1510,7 @@
 	<object class="MixerBusFader" id="{b68a049b-bf95-45ed-b52f-fe9a8416ccd8}" />
 	<object class="AutomationPoint" id="{5d556bdc-20b9-4301-abdd-a97c38c9e01b}">
 		<property name="position">
-			<value>179</value>
+			<value>179.03108776868464</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1521,7 +1521,7 @@
 	</object>
 	<object class="AutomationPoint" id="{ee095ef8-993b-4fe2-bf28-39b8ab1158b5}">
 		<property name="position">
-			<value>180.01382902028806</value>
+			<value>180.0449167889727</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -1559,7 +1559,7 @@
 	<object class="MixerBusFader" id="{35fac84b-ef69-443f-b259-ea69edb52c2b}" />
 	<object class="AutomationPoint" id="{697ff567-112f-493c-97a7-c4e7711c035b}">
 		<property name="position">
-			<value>179</value>
+			<value>179.03176110827576</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1570,7 +1570,7 @@
 	</object>
 	<object class="AutomationPoint" id="{633a4655-88d3-42a2-a5ac-0b1ed561ffe6}">
 		<property name="position">
-			<value>180.01382902028806</value>
+			<value>180.04559012856382</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -1608,7 +1608,7 @@
 	<object class="MixerBusFader" id="{c4b396c4-3e4d-4158-9b11-6dc36faacdaa}" />
 	<object class="AutomationPoint" id="{388c2823-e0a0-4354-afd0-fb9bfb26071d}">
 		<property name="position">
-			<value>179</value>
+			<value>179.03417975333969</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1619,7 +1619,7 @@
 	</object>
 	<object class="AutomationPoint" id="{3b06948b-aa43-4436-80d5-125b879f69e8}">
 		<property name="position">
-			<value>180.01382902028806</value>
+			<value>180.04800877362774</value>
 		</property>
 		<property name="value">
 			<value>0</value>
