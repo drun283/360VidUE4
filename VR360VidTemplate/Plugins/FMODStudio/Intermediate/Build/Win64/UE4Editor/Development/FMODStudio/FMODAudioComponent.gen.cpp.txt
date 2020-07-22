@@ -1,7 +1,7 @@
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/TextProperty.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio/Classes/FMODAudioComponent.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio/Classes/FMODAudioComponent.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Sound/SoundAttenuation.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/Attenuation.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Curves/CurveFloat.h
@@ -385,16 +385,16 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundSourceBus.generated.h
 c:\program files\epic games\ue_4.23\engine\source\runtime\engine\public\AudioVirtualLoop.h
 c:\program files\epic games\ue_4.23\engine\source\runtime\engine\public\ActiveSound.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODStudioModule.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODUtils.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio.hpp
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio_common.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_common.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_codec.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp_effects.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_output.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.hpp
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\intermediate\build\win64\ue4editor\inc\fmodstudio\FMODAudioComponent.generated.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODStudioModule.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODUtils.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio.hpp
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio_common.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_common.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_codec.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp_effects.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_output.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.hpp
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\intermediate\build\win64\ue4editor\inc\fmodstudio\FMODAudioComponent.generated.h

@@ -1,4 +1,4 @@
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudioeditor\private\FMODEventEditor.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudioeditor\private\FMODEventEditor.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Slate\Public\Framework/Docking/TabManager.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Slate\Public\SlateFwd.h
@@ -299,24 +299,24 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\MeshDescription\Public
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMesh.generated.h
 c:\program files\epic games\ue_4.23\engine\source\editor\unrealed\public\Subsystems/ImportSubsystem.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ImportSubsystem.generated.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio_common.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_common.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_codec.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp_effects.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_output.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODEvent.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\classes\FMODAsset.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAsset.generated.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEvent.generated.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODStudioModule.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio_common.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_common.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_codec.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp_effects.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_output.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODEvent.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\classes\FMODAsset.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAsset.generated.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEvent.generated.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODStudioModule.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Modules/Boilerplate/ModuleBoilerplate.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODUtils.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio.hpp
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.hpp
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudioeditor\private\SFMODEventEditorPanel.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODUtils.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio.hpp
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.hpp
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudioeditor\private\SFMODEventEditorPanel.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Slate\Public\Widgets/Docking/SDockTab.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SBorder.h

@@ -72,6 +72,7 @@ void ATrackerBase::StartMovement()
 {
 	//GLog->Log(this->GetDebugName(this) + " has started movement");
 	bIsMoving = true;
+	CurrentTime = TimeCorrection;
 }
 
 void ATrackerBase::InitalizeMovement()

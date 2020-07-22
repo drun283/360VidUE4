@@ -1,5 +1,5 @@
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSettings.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODSettings.generated.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSettings.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODSettings.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/Paths.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Editor\UnrealEd\Classes\Settings/ProjectPackagingSettings.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ProjectPackagingSettings.generated.h

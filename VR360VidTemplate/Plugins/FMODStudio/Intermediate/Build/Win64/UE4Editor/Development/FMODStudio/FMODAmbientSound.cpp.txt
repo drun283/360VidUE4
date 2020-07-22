@@ -1,5 +1,5 @@
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAmbientSound.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\classes\FMODAudioComponent.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAmbientSound.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\classes\FMODAudioComponent.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Sound/SoundAttenuation.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/Attenuation.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Curves/CurveFloat.h
@@ -383,24 +383,24 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundSourceBus.generated.h
 c:\program files\epic games\ue_4.23\engine\source\runtime\engine\public\AudioVirtualLoop.h
 c:\program files\epic games\ue_4.23\engine\source\runtime\engine\public\ActiveSound.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODStudioModule.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODUtils.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio.hpp
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio_common.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_common.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_codec.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp_effects.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_output.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.hpp
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAudioComponent.generated.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAmbientSound.generated.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODEvent.h
-c:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\classes\FMODAsset.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAsset.generated.h
-C:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEvent.generated.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODStudioModule.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMODUtils.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio.hpp
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio_common.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_common.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_codec.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp_effects.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_output.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.hpp
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAudioComponent.generated.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAmbientSound.generated.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODEvent.h
+d:\gameprojects\out of small things\360vidue4\vr360vidtemplate\plugins\fmodstudio\source\fmodstudio\classes\FMODAsset.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAsset.generated.h
+D:\GameProjects\Out of Small Things\360VidUE4\VR360VidTemplate\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEvent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Logging/MessageLog.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Logging/TokenizedMessage.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\Misc/UObjectToken.h

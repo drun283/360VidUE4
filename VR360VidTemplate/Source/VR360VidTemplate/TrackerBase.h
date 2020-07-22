@@ -58,6 +58,9 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
 	float HorizontalCorrection;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
+	float TimeCorrection;
 	
 private:
 	UPROPERTY()
