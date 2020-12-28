@@ -2,6 +2,8 @@
 
 
 #include "TrackerBase.h"
+#include <chrono>
+#include <ctime>    
 
 
 ATrackerBase::ATrackerBase()
@@ -40,9 +42,26 @@ ATrackerBase::ATrackerBase()
 
 void ATrackerBase::Tick(float DeltaTime)
 {
+	/*
+	static std::chrono::time_point<std::chrono::system_clock> last;
+	static bool first = true;
+	if (first) {
+		first = false;
+		last = std::chrono::system_clock::now();
+		GLog->Log("start");
+	}
+	auto now = std::chrono::system_clock::now();
+	
+	std::chrono::duration<double> delta = now - last;
+	last = now;
+	
 
 	if (bIsMoving) {
-		CurrentTime += DeltaTime;
+
+
+
+		CurrentTime += delta.count();
+		GLog->Log("time: " + FString::SanitizeFloat(CurrentTime) + ", delta: " + FString::SanitizeFloat(delta.count()) + ", DeltaTime: " + FString::SanitizeFloat(DeltaTime));
 
 		if (bIsUsingPosition)
 		{
@@ -51,7 +70,7 @@ void ATrackerBase::Tick(float DeltaTime)
 			//GLog->Log("yaw = " + FString::SanitizeFloat(y) + ", pitch = " + FString::SanitizeFloat(p));
 			Center->SetWorldRotation(FRotator(p + VerticalCorrection, y + HorizontalCorrection, 0));
 		}
-		/* // Not being used
+		 // Not being used
 		if (bIsUsingScale)
 		{
 			float scaleX = ScaleXCurve.Eval(CurrentTime);
@@ -63,16 +82,40 @@ void ATrackerBase::Tick(float DeltaTime)
 			float rot = RotationCurve.Eval(CurrentTime);
 			RotatingStuff->SetRelativeRotation(FRotator(rot, 0.0, 0.0));
 		}
-		*/
+		
 	}
+	*/
+}
 
+void ATrackerBase::SetTransformToTime(float time)
+{
+	if (bIsUsingPosition)
+	{
+		float y = PositionXCurve.Eval(time);
+		float p = PositionYCurve.Eval(time);
+		//GLog->Log("yaw = " + FString::SanitizeFloat(y) + ", pitch = " + FString::SanitizeFloat(p));
+		Center->SetWorldRotation(FRotator(p + VerticalCorrection, y + HorizontalCorrection, 0));
+	}
+	/* // Not being used
+	if (bIsUsingScale)
+	{
+		float scaleX = ScaleXCurve.Eval(time);
+		float scaleY = ScaleYCurve.Eval(time);
+		PointOnSphere->SetRelativeScale3D(FVector(scaleX, 1.0, scaleY));
+	}
+	if (bIsUsingRotation)
+	{
+		float rot = RotationCurve.Eval(time);
+		RotatingStuff->SetRelativeRotation(FRotator(rot, 0.0, 0.0));
+	}
+	*/
 }
 
 void ATrackerBase::StartMovement()
 {
 	//GLog->Log(this->GetDebugName(this) + " has started movement");
-	bIsMoving = true;
-	CurrentTime = TimeCorrection;
+	//bIsMoving = true;
+	//CurrentTime = TimeCorrection;
 }
 
 void ATrackerBase::InitalizeMovement()

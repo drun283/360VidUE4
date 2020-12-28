@@ -22,6 +22,9 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintCallable)
+	void SetTransformToTime(float time);
+
 	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
 	UCurveTable* CurveTable;
 
@@ -62,6 +65,8 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = "Tracker")
 	float TimeCorrection;
 	
+
+
 private:
 	UPROPERTY()
 	FRichCurve ScaleXCurve;
